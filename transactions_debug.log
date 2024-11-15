@@ -1,0 +1,2249 @@
+[2024-11-14 10:39:24][INFO] Starting transaction fetch
+[2024-11-14 10:39:24][INFO] Database connected successfully
+[2024-11-14 10:39:24][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments 
+              ORDER BY created_at DESC 
+              LIMIT 10
+[2024-11-14 10:39:24][INFO] Found 2 transactions
+[2024-11-14 10:39:24][INFO] Database connection closed
+[2024-11-14 10:40:26][INFO] Starting transaction fetch
+[2024-11-14 10:40:26][INFO] Database connected successfully
+[2024-11-14 10:40:26][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments 
+              ORDER BY created_at DESC 
+              LIMIT 10
+[2024-11-14 10:40:26][INFO] Found 3 transactions
+[2024-11-14 10:40:26][INFO] Database connection closed
+[2024-11-14 10:42:10][INFO] Starting transaction fetch
+[2024-11-14 10:42:10][INFO] Database connected successfully
+[2024-11-14 10:42:10][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments 
+              ORDER BY created_at DESC 
+              LIMIT 10
+[2024-11-14 10:42:10][INFO] Found 4 transactions
+[2024-11-14 10:42:10][INFO] Database connection closed
+[2024-11-14 10:42:40][INFO] Starting transaction fetch
+[2024-11-14 10:42:40][INFO] Database connected successfully
+[2024-11-14 10:42:40][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments 
+              ORDER BY created_at DESC 
+              LIMIT 10
+[2024-11-14 10:42:40][INFO] Found 3 transactions
+[2024-11-14 10:42:40][INFO] Database connection closed
+[2024-11-14 10:43:10][INFO] Starting transaction fetch
+[2024-11-14 10:43:10][INFO] Database connected successfully
+[2024-11-14 10:43:10][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments 
+              ORDER BY created_at DESC 
+              LIMIT 10
+[2024-11-14 10:43:10][INFO] Found 3 transactions
+[2024-11-14 10:43:10][INFO] Database connection closed
+[2024-11-14 10:43:40][INFO] Starting transaction fetch
+[2024-11-14 10:43:40][INFO] Database connected successfully
+[2024-11-14 10:43:40][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments 
+              ORDER BY created_at DESC 
+              LIMIT 10
+[2024-11-14 10:43:40][INFO] Found 3 transactions
+[2024-11-14 10:43:40][INFO] Database connection closed
+[2024-11-14 10:44:10][INFO] Starting transaction fetch
+[2024-11-14 10:44:10][INFO] Database connected successfully
+[2024-11-14 10:44:10][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:44:10][INFO] Found 3 transactions
+[2024-11-14 10:44:10][INFO] Database connection closed
+[2024-11-14 10:44:40][INFO] Starting transaction fetch
+[2024-11-14 10:44:40][INFO] Database connected successfully
+[2024-11-14 10:44:40][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:44:40][INFO] Found 3 transactions
+[2024-11-14 10:44:40][INFO] Database connection closed
+[2024-11-14 10:44:48][INFO] Starting transaction fetch
+[2024-11-14 10:44:48][INFO] Database connected successfully
+[2024-11-14 10:44:48][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:44:48][INFO] Found 3 transactions
+[2024-11-14 10:44:48][INFO] Database connection closed
+[2024-11-14 10:44:49][INFO] Starting transaction fetch
+[2024-11-14 10:44:49][INFO] Database connected successfully
+[2024-11-14 10:44:49][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:44:49][INFO] Found 3 transactions
+[2024-11-14 10:44:49][INFO] Database connection closed
+[2024-11-14 10:44:50][INFO] Starting transaction fetch
+[2024-11-14 10:44:50][INFO] Database connected successfully
+[2024-11-14 10:44:50][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:44:50][INFO] Found 3 transactions
+[2024-11-14 10:44:50][INFO] Database connection closed
+[2024-11-14 10:44:50][INFO] Starting transaction fetch
+[2024-11-14 10:44:50][INFO] Database connected successfully
+[2024-11-14 10:44:50][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:44:50][INFO] Found 3 transactions
+[2024-11-14 10:44:50][INFO] Database connection closed
+[2024-11-14 10:44:50][INFO] Starting transaction fetch
+[2024-11-14 10:44:50][INFO] Database connected successfully
+[2024-11-14 10:44:50][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:44:50][INFO] Found 3 transactions
+[2024-11-14 10:44:50][INFO] Database connection closed
+[2024-11-14 10:44:51][INFO] Starting transaction fetch
+[2024-11-14 10:44:51][INFO] Database connected successfully
+[2024-11-14 10:44:51][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:44:51][INFO] Found 3 transactions
+[2024-11-14 10:44:51][INFO] Database connection closed
+[2024-11-14 10:44:51][INFO] Starting transaction fetch
+[2024-11-14 10:44:51][INFO] Database connected successfully
+[2024-11-14 10:44:51][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:44:51][INFO] Found 3 transactions
+[2024-11-14 10:44:51][INFO] Database connection closed
+[2024-11-14 10:44:51][INFO] Starting transaction fetch
+[2024-11-14 10:44:51][INFO] Database connected successfully
+[2024-11-14 10:44:51][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:44:51][INFO] Found 3 transactions
+[2024-11-14 10:44:51][INFO] Database connection closed
+[2024-11-14 10:44:51][INFO] Starting transaction fetch
+[2024-11-14 10:44:51][INFO] Database connected successfully
+[2024-11-14 10:44:51][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:44:51][INFO] Found 3 transactions
+[2024-11-14 10:44:51][INFO] Database connection closed
+[2024-11-14 10:44:52][INFO] Starting transaction fetch
+[2024-11-14 10:44:52][INFO] Database connected successfully
+[2024-11-14 10:44:52][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:44:52][INFO] Found 3 transactions
+[2024-11-14 10:44:52][INFO] Database connection closed
+[2024-11-14 10:47:13][INFO] Starting transaction fetch
+[2024-11-14 10:47:13][INFO] Database connected successfully
+[2024-11-14 10:47:13][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:47:13][INFO] Found 4 transactions
+[2024-11-14 10:47:13][INFO] Database connection closed
+[2024-11-14 10:47:44][INFO] Starting transaction fetch
+[2024-11-14 10:47:44][INFO] Database connected successfully
+[2024-11-14 10:47:44][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:47:44][INFO] Found 4 transactions
+[2024-11-14 10:47:44][INFO] Database connection closed
+[2024-11-14 10:48:14][INFO] Starting transaction fetch
+[2024-11-14 10:48:14][INFO] Database connected successfully
+[2024-11-14 10:48:14][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:48:14][INFO] Found 4 transactions
+[2024-11-14 10:48:14][INFO] Database connection closed
+[2024-11-14 10:48:44][INFO] Starting transaction fetch
+[2024-11-14 10:48:44][INFO] Database connected successfully
+[2024-11-14 10:48:44][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:48:44][INFO] Found 4 transactions
+[2024-11-14 10:48:44][INFO] Database connection closed
+[2024-11-14 10:49:14][INFO] Starting transaction fetch
+[2024-11-14 10:49:14][INFO] Database connected successfully
+[2024-11-14 10:49:14][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:49:14][INFO] Found 4 transactions
+[2024-11-14 10:49:14][INFO] Database connection closed
+[2024-11-14 10:49:44][INFO] Starting transaction fetch
+[2024-11-14 10:49:44][INFO] Database connected successfully
+[2024-11-14 10:49:44][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:49:44][INFO] Found 4 transactions
+[2024-11-14 10:49:44][INFO] Database connection closed
+[2024-11-14 10:50:13][INFO] Starting transaction fetch
+[2024-11-14 10:50:13][INFO] Database connected successfully
+[2024-11-14 10:50:13][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:50:13][INFO] Found 4 transactions
+[2024-11-14 10:50:13][INFO] Database connection closed
+[2024-11-14 10:51:10][INFO] Starting transaction fetch
+[2024-11-14 10:51:11][INFO] Database connected successfully
+[2024-11-14 10:51:11][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:51:11][INFO] Found 5 transactions
+[2024-11-14 10:51:11][INFO] Database connection closed
+[2024-11-14 10:51:13][INFO] Starting transaction fetch
+[2024-11-14 10:51:13][INFO] Database connected successfully
+[2024-11-14 10:51:13][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:51:13][INFO] Found 5 transactions
+[2024-11-14 10:51:13][INFO] Database connection closed
+[2024-11-14 10:51:43][INFO] Starting transaction fetch
+[2024-11-14 10:51:43][INFO] Database connected successfully
+[2024-11-14 10:51:43][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:51:43][INFO] Found 5 transactions
+[2024-11-14 10:51:43][INFO] Database connection closed
+[2024-11-14 10:52:13][INFO] Starting transaction fetch
+[2024-11-14 10:52:13][INFO] Database connected successfully
+[2024-11-14 10:52:13][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:52:13][INFO] Found 5 transactions
+[2024-11-14 10:52:13][INFO] Database connection closed
+[2024-11-14 10:52:43][INFO] Starting transaction fetch
+[2024-11-14 10:52:43][INFO] Database connected successfully
+[2024-11-14 10:52:43][INFO] Executing query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:52:43][INFO] Found 5 transactions
+[2024-11-14 10:52:43][INFO] Database connection closed
+[2024-11-14 10:52:59][INFO] Starting transaction fetch
+[2024-11-14 10:52:59][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 10:52:59][INFO] Database connected successfully
+[2024-11-14 10:52:59][INFO] WHERE conditions: 
+[2024-11-14 10:52:59][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 10:52:59][INFO] Total records found: 5
+[2024-11-14 10:52:59][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:52:59][INFO] Parameters: [10,0]
+[2024-11-14 10:52:59][INFO] Found 5 transactions
+[2024-11-14 10:52:59][INFO] Processing row with status: COMPLETED
+[2024-11-14 10:52:59][INFO] Processing row with status: PENDING
+[2024-11-14 10:52:59][INFO] Processing row with status: PENDING
+[2024-11-14 10:52:59][INFO] Processing row with status: PENDING
+[2024-11-14 10:52:59][INFO] Processing row with status: PENDING
+[2024-11-14 10:52:59][INFO] Database connection closed
+[2024-11-14 10:53:00][INFO] Starting transaction fetch
+[2024-11-14 10:53:00][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 10:53:00][INFO] Database connected successfully
+[2024-11-14 10:53:00][INFO] WHERE conditions: 
+[2024-11-14 10:53:00][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 10:53:00][INFO] Total records found: 5
+[2024-11-14 10:53:00][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:53:00][INFO] Parameters: [10,0]
+[2024-11-14 10:53:00][INFO] Found 5 transactions
+[2024-11-14 10:53:00][INFO] Processing row with status: COMPLETED
+[2024-11-14 10:53:00][INFO] Processing row with status: PENDING
+[2024-11-14 10:53:00][INFO] Processing row with status: PENDING
+[2024-11-14 10:53:00][INFO] Processing row with status: PENDING
+[2024-11-14 10:53:00][INFO] Processing row with status: PENDING
+[2024-11-14 10:53:00][INFO] Database connection closed
+[2024-11-14 10:53:01][INFO] Starting transaction fetch
+[2024-11-14 10:53:01][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 10:53:01][INFO] Database connected successfully
+[2024-11-14 10:53:01][INFO] WHERE conditions: 
+[2024-11-14 10:53:01][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 10:53:01][INFO] Total records found: 5
+[2024-11-14 10:53:01][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:53:01][INFO] Parameters: [10,0]
+[2024-11-14 10:53:01][INFO] Found 5 transactions
+[2024-11-14 10:53:01][INFO] Processing row with status: COMPLETED
+[2024-11-14 10:53:01][INFO] Processing row with status: PENDING
+[2024-11-14 10:53:01][INFO] Processing row with status: PENDING
+[2024-11-14 10:53:01][INFO] Processing row with status: PENDING
+[2024-11-14 10:53:01][INFO] Processing row with status: PENDING
+[2024-11-14 10:53:01][INFO] Database connection closed
+[2024-11-14 10:53:02][INFO] Starting transaction fetch
+[2024-11-14 10:53:02][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 10:53:02][INFO] Database connected successfully
+[2024-11-14 10:53:02][INFO] WHERE conditions: 
+[2024-11-14 10:53:02][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 10:53:02][INFO] Total records found: 5
+[2024-11-14 10:53:02][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:53:02][INFO] Parameters: [10,0]
+[2024-11-14 10:53:02][INFO] Found 5 transactions
+[2024-11-14 10:53:02][INFO] Processing row with status: COMPLETED
+[2024-11-14 10:53:02][INFO] Processing row with status: PENDING
+[2024-11-14 10:53:02][INFO] Processing row with status: PENDING
+[2024-11-14 10:53:02][INFO] Processing row with status: PENDING
+[2024-11-14 10:53:02][INFO] Processing row with status: PENDING
+[2024-11-14 10:53:02][INFO] Database connection closed
+[2024-11-14 10:53:32][INFO] Starting transaction fetch
+[2024-11-14 10:53:32][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 10:53:32][INFO] Database connected successfully
+[2024-11-14 10:53:32][INFO] WHERE conditions: 
+[2024-11-14 10:53:32][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 10:53:32][INFO] Total records found: 5
+[2024-11-14 10:53:32][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:53:32][INFO] Parameters: [10,0]
+[2024-11-14 10:53:32][INFO] Found 5 transactions
+[2024-11-14 10:53:32][INFO] Processing row with status: COMPLETED
+[2024-11-14 10:53:32][INFO] Processing row with status: PENDING
+[2024-11-14 10:53:32][INFO] Processing row with status: PENDING
+[2024-11-14 10:53:32][INFO] Processing row with status: PENDING
+[2024-11-14 10:53:32][INFO] Processing row with status: PENDING
+[2024-11-14 10:53:32][INFO] Database connection closed
+[2024-11-14 10:53:44][INFO] Starting transaction fetch
+[2024-11-14 10:53:44][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 10:53:44][INFO] Database connected successfully
+[2024-11-14 10:53:44][INFO] WHERE conditions: 
+[2024-11-14 10:53:44][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 10:53:44][INFO] Total records found: 0
+[2024-11-14 10:53:44][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:53:44][INFO] Parameters: [10,0]
+[2024-11-14 10:53:44][INFO] No transactions found for the given criteria
+[2024-11-14 10:53:44][INFO] Database connection closed
+[2024-11-14 10:54:14][INFO] Starting transaction fetch
+[2024-11-14 10:54:14][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 10:54:14][INFO] Database connected successfully
+[2024-11-14 10:54:14][INFO] WHERE conditions: 
+[2024-11-14 10:54:14][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 10:54:14][INFO] Total records found: 0
+[2024-11-14 10:54:14][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:54:14][INFO] Parameters: [10,0]
+[2024-11-14 10:54:14][INFO] No transactions found for the given criteria
+[2024-11-14 10:54:14][INFO] Database connection closed
+[2024-11-14 10:54:44][INFO] Starting transaction fetch
+[2024-11-14 10:54:44][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 10:54:44][INFO] Database connected successfully
+[2024-11-14 10:54:44][INFO] WHERE conditions: 
+[2024-11-14 10:54:44][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 10:54:44][INFO] Total records found: 0
+[2024-11-14 10:54:44][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:54:44][INFO] Parameters: [10,0]
+[2024-11-14 10:54:44][INFO] No transactions found for the given criteria
+[2024-11-14 10:54:44][INFO] Database connection closed
+[2024-11-14 10:55:14][INFO] Starting transaction fetch
+[2024-11-14 10:55:14][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 10:55:14][INFO] Database connected successfully
+[2024-11-14 10:55:14][INFO] WHERE conditions: 
+[2024-11-14 10:55:14][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 10:55:14][INFO] Total records found: 0
+[2024-11-14 10:55:14][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:55:14][INFO] Parameters: [10,0]
+[2024-11-14 10:55:14][INFO] No transactions found for the given criteria
+[2024-11-14 10:55:14][INFO] Database connection closed
+[2024-11-14 10:55:44][INFO] Starting transaction fetch
+[2024-11-14 10:55:44][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 10:55:44][INFO] Database connected successfully
+[2024-11-14 10:55:44][INFO] WHERE conditions: 
+[2024-11-14 10:55:44][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 10:55:44][INFO] Total records found: 0
+[2024-11-14 10:55:44][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:55:44][INFO] Parameters: [10,0]
+[2024-11-14 10:55:44][INFO] No transactions found for the given criteria
+[2024-11-14 10:55:44][INFO] Database connection closed
+[2024-11-14 10:56:14][INFO] Starting transaction fetch
+[2024-11-14 10:56:14][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 10:56:14][INFO] Database connected successfully
+[2024-11-14 10:56:14][INFO] WHERE conditions: 
+[2024-11-14 10:56:14][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 10:56:14][INFO] Total records found: 0
+[2024-11-14 10:56:14][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:56:14][INFO] Parameters: [10,0]
+[2024-11-14 10:56:14][INFO] No transactions found for the given criteria
+[2024-11-14 10:56:14][INFO] Database connection closed
+[2024-11-14 10:57:15][INFO] Starting transaction fetch
+[2024-11-14 10:57:15][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 10:57:15][INFO] Database connected successfully
+[2024-11-14 10:57:15][INFO] WHERE conditions: 
+[2024-11-14 10:57:15][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 10:57:15][INFO] Total records found: 0
+[2024-11-14 10:57:15][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:57:15][INFO] Parameters: [10,0]
+[2024-11-14 10:57:15][INFO] No transactions found for the given criteria
+[2024-11-14 10:57:15][INFO] Database connection closed
+[2024-11-14 10:58:16][INFO] Starting transaction fetch
+[2024-11-14 10:58:16][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 10:58:16][INFO] Database connected successfully
+[2024-11-14 10:58:16][INFO] WHERE conditions: 
+[2024-11-14 10:58:16][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 10:58:16][INFO] Total records found: 0
+[2024-11-14 10:58:16][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:58:16][INFO] Parameters: [10,0]
+[2024-11-14 10:58:16][INFO] No transactions found for the given criteria
+[2024-11-14 10:58:16][INFO] Database connection closed
+[2024-11-14 10:59:17][INFO] Starting transaction fetch
+[2024-11-14 10:59:17][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 10:59:17][INFO] Database connected successfully
+[2024-11-14 10:59:17][INFO] WHERE conditions: 
+[2024-11-14 10:59:17][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 10:59:17][INFO] Total records found: 0
+[2024-11-14 10:59:17][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 10:59:17][INFO] Parameters: [10,0]
+[2024-11-14 10:59:17][INFO] No transactions found for the given criteria
+[2024-11-14 10:59:17][INFO] Database connection closed
+[2024-11-14 11:00:18][INFO] Starting transaction fetch
+[2024-11-14 11:00:18][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:00:18][INFO] Database connected successfully
+[2024-11-14 11:00:18][INFO] WHERE conditions: 
+[2024-11-14 11:00:18][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:00:18][INFO] Total records found: 0
+[2024-11-14 11:00:18][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:00:18][INFO] Parameters: [10,0]
+[2024-11-14 11:00:18][INFO] No transactions found for the given criteria
+[2024-11-14 11:00:18][INFO] Database connection closed
+[2024-11-14 11:01:08][INFO] Starting transaction fetch
+[2024-11-14 11:01:08][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:01:08][INFO] Database connected successfully
+[2024-11-14 11:01:08][INFO] WHERE conditions: 
+[2024-11-14 11:01:08][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:01:08][INFO] Total records found: 0
+[2024-11-14 11:01:08][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:01:08][INFO] Parameters: [10,0]
+[2024-11-14 11:01:08][INFO] No transactions found for the given criteria
+[2024-11-14 11:01:08][INFO] Database connection closed
+[2024-11-14 11:01:09][INFO] Starting transaction fetch
+[2024-11-14 11:01:09][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:01:09][INFO] Database connected successfully
+[2024-11-14 11:01:09][INFO] WHERE conditions: 
+[2024-11-14 11:01:09][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:01:09][INFO] Total records found: 0
+[2024-11-14 11:01:09][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:01:09][INFO] Parameters: [10,0]
+[2024-11-14 11:01:09][INFO] No transactions found for the given criteria
+[2024-11-14 11:01:09][INFO] Database connection closed
+[2024-11-14 11:01:09][INFO] Starting transaction fetch
+[2024-11-14 11:01:09][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:01:09][INFO] Database connected successfully
+[2024-11-14 11:01:09][INFO] WHERE conditions: 
+[2024-11-14 11:01:09][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:01:09][INFO] Total records found: 0
+[2024-11-14 11:01:09][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:01:09][INFO] Parameters: [10,0]
+[2024-11-14 11:01:09][INFO] No transactions found for the given criteria
+[2024-11-14 11:01:09][INFO] Database connection closed
+[2024-11-14 11:01:10][INFO] Starting transaction fetch
+[2024-11-14 11:01:10][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:01:10][INFO] Database connected successfully
+[2024-11-14 11:01:10][INFO] WHERE conditions: 
+[2024-11-14 11:01:10][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:01:10][INFO] Total records found: 0
+[2024-11-14 11:01:10][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:01:10][INFO] Parameters: [10,0]
+[2024-11-14 11:01:10][INFO] No transactions found for the given criteria
+[2024-11-14 11:01:10][INFO] Database connection closed
+[2024-11-14 11:01:10][INFO] Starting transaction fetch
+[2024-11-14 11:01:10][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:01:10][INFO] Database connected successfully
+[2024-11-14 11:01:10][INFO] WHERE conditions: 
+[2024-11-14 11:01:10][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:01:10][INFO] Total records found: 0
+[2024-11-14 11:01:10][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:01:10][INFO] Parameters: [10,0]
+[2024-11-14 11:01:10][INFO] No transactions found for the given criteria
+[2024-11-14 11:01:10][INFO] Database connection closed
+[2024-11-14 11:01:11][INFO] Starting transaction fetch
+[2024-11-14 11:01:11][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:01:11][INFO] Database connected successfully
+[2024-11-14 11:01:11][INFO] WHERE conditions: 
+[2024-11-14 11:01:11][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:01:11][INFO] Total records found: 0
+[2024-11-14 11:01:11][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:01:11][INFO] Parameters: [10,0]
+[2024-11-14 11:01:11][INFO] No transactions found for the given criteria
+[2024-11-14 11:01:11][INFO] Database connection closed
+[2024-11-14 11:01:11][INFO] Starting transaction fetch
+[2024-11-14 11:01:11][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:01:11][INFO] Database connected successfully
+[2024-11-14 11:01:11][INFO] WHERE conditions: 
+[2024-11-14 11:01:11][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:01:11][INFO] Total records found: 0
+[2024-11-14 11:01:11][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:01:11][INFO] Parameters: [10,0]
+[2024-11-14 11:01:11][INFO] No transactions found for the given criteria
+[2024-11-14 11:01:11][INFO] Database connection closed
+[2024-11-14 11:01:11][INFO] Starting transaction fetch
+[2024-11-14 11:01:11][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:01:11][INFO] Database connected successfully
+[2024-11-14 11:01:11][INFO] WHERE conditions: 
+[2024-11-14 11:01:11][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:01:11][INFO] Total records found: 0
+[2024-11-14 11:01:11][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:01:11][INFO] Parameters: [10,0]
+[2024-11-14 11:01:11][INFO] No transactions found for the given criteria
+[2024-11-14 11:01:11][INFO] Database connection closed
+[2024-11-14 11:01:11][INFO] Starting transaction fetch
+[2024-11-14 11:01:11][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:01:11][INFO] Database connected successfully
+[2024-11-14 11:01:11][INFO] WHERE conditions: 
+[2024-11-14 11:01:11][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:01:11][INFO] Total records found: 0
+[2024-11-14 11:01:11][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:01:11][INFO] Parameters: [10,0]
+[2024-11-14 11:01:11][INFO] No transactions found for the given criteria
+[2024-11-14 11:01:11][INFO] Database connection closed
+[2024-11-14 11:01:37][INFO] Starting transaction fetch
+[2024-11-14 11:01:37][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:01:37][INFO] Database connected successfully
+[2024-11-14 11:01:37][INFO] WHERE conditions: 
+[2024-11-14 11:01:37][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:01:37][INFO] Total records found: 1
+[2024-11-14 11:01:37][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:01:37][INFO] Parameters: [10,0]
+[2024-11-14 11:01:37][INFO] Found 1 transactions
+[2024-11-14 11:01:37][INFO] Processing row with status: PENDING
+[2024-11-14 11:01:37][INFO] Database connection closed
+[2024-11-14 11:02:08][INFO] Starting transaction fetch
+[2024-11-14 11:02:08][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:02:08][INFO] Database connected successfully
+[2024-11-14 11:02:08][INFO] WHERE conditions: 
+[2024-11-14 11:02:08][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:02:08][INFO] Total records found: 1
+[2024-11-14 11:02:08][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:02:08][INFO] Parameters: [10,0]
+[2024-11-14 11:02:08][INFO] Found 1 transactions
+[2024-11-14 11:02:08][INFO] Processing row with status: PENDING
+[2024-11-14 11:02:08][INFO] Database connection closed
+[2024-11-14 11:04:28][INFO] Starting transaction fetch
+[2024-11-14 11:04:28][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:04:28][INFO] Database connected successfully
+[2024-11-14 11:04:28][INFO] WHERE conditions: 
+[2024-11-14 11:04:28][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:04:28][INFO] Total records found: 2
+[2024-11-14 11:04:28][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:04:28][INFO] Parameters: [10,0]
+[2024-11-14 11:04:28][INFO] Found 2 transactions
+[2024-11-14 11:04:28][INFO] Processing row with status: PENDING
+[2024-11-14 11:04:28][INFO] Processing row with status: PENDING
+[2024-11-14 11:04:28][INFO] Database connection closed
+[2024-11-14 11:07:48][INFO] Starting transaction fetch
+[2024-11-14 11:07:48][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:07:48][INFO] Database connected successfully
+[2024-11-14 11:07:48][INFO] WHERE conditions: 
+[2024-11-14 11:07:48][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:07:48][INFO] Total records found: 3
+[2024-11-14 11:07:48][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:07:48][INFO] Parameters: [10,0]
+[2024-11-14 11:07:48][INFO] Found 3 transactions
+[2024-11-14 11:07:48][INFO] Processing row with status: PENDING
+[2024-11-14 11:07:48][INFO] Processing row with status: PENDING
+[2024-11-14 11:07:48][INFO] Processing row with status: PENDING
+[2024-11-14 11:07:48][INFO] Database connection closed
+[2024-11-14 11:08:17][INFO] Starting transaction fetch
+[2024-11-14 11:08:17][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:08:17][INFO] Database connected successfully
+[2024-11-14 11:08:17][INFO] WHERE conditions: 
+[2024-11-14 11:08:17][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:08:17][INFO] Total records found: 4
+[2024-11-14 11:08:17][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:08:17][INFO] Parameters: [10,0]
+[2024-11-14 11:08:17][INFO] Found 4 transactions
+[2024-11-14 11:08:17][INFO] Processing row with status: PENDING
+[2024-11-14 11:08:17][INFO] Processing row with status: PENDING
+[2024-11-14 11:08:17][INFO] Processing row with status: PENDING
+[2024-11-14 11:08:17][INFO] Processing row with status: PENDING
+[2024-11-14 11:08:17][INFO] Database connection closed
+[2024-11-14 11:08:48][INFO] Starting transaction fetch
+[2024-11-14 11:08:48][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:08:48][INFO] Database connected successfully
+[2024-11-14 11:08:48][INFO] WHERE conditions: 
+[2024-11-14 11:08:48][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:08:48][INFO] Total records found: 4
+[2024-11-14 11:08:48][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:08:48][INFO] Parameters: [10,0]
+[2024-11-14 11:08:48][INFO] Found 4 transactions
+[2024-11-14 11:08:48][INFO] Processing row with status: PENDING
+[2024-11-14 11:08:48][INFO] Processing row with status: PENDING
+[2024-11-14 11:08:48][INFO] Processing row with status: PENDING
+[2024-11-14 11:08:48][INFO] Processing row with status: PENDING
+[2024-11-14 11:08:48][INFO] Database connection closed
+[2024-11-14 11:09:18][INFO] Starting transaction fetch
+[2024-11-14 11:09:18][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:09:18][INFO] Database connected successfully
+[2024-11-14 11:09:18][INFO] WHERE conditions: 
+[2024-11-14 11:09:18][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:09:18][INFO] Total records found: 4
+[2024-11-14 11:09:18][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:09:18][INFO] Parameters: [10,0]
+[2024-11-14 11:09:18][INFO] Found 4 transactions
+[2024-11-14 11:09:18][INFO] Processing row with status: PENDING
+[2024-11-14 11:09:18][INFO] Processing row with status: PENDING
+[2024-11-14 11:09:18][INFO] Processing row with status: PENDING
+[2024-11-14 11:09:18][INFO] Processing row with status: PENDING
+[2024-11-14 11:09:18][INFO] Database connection closed
+[2024-11-14 11:09:48][INFO] Starting transaction fetch
+[2024-11-14 11:09:48][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:09:48][INFO] Database connected successfully
+[2024-11-14 11:09:48][INFO] WHERE conditions: 
+[2024-11-14 11:09:48][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:09:48][INFO] Total records found: 4
+[2024-11-14 11:09:48][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:09:48][INFO] Parameters: [10,0]
+[2024-11-14 11:09:48][INFO] Found 4 transactions
+[2024-11-14 11:09:48][INFO] Processing row with status: PENDING
+[2024-11-14 11:09:48][INFO] Processing row with status: PENDING
+[2024-11-14 11:09:48][INFO] Processing row with status: PENDING
+[2024-11-14 11:09:48][INFO] Processing row with status: PENDING
+[2024-11-14 11:09:48][INFO] Database connection closed
+[2024-11-14 11:10:18][INFO] Starting transaction fetch
+[2024-11-14 11:10:18][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:10:18][INFO] Database connected successfully
+[2024-11-14 11:10:18][INFO] WHERE conditions: 
+[2024-11-14 11:10:18][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:10:18][INFO] Total records found: 4
+[2024-11-14 11:10:18][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:10:18][INFO] Parameters: [10,0]
+[2024-11-14 11:10:18][INFO] Found 4 transactions
+[2024-11-14 11:10:18][INFO] Processing row with status: PENDING
+[2024-11-14 11:10:18][INFO] Processing row with status: PENDING
+[2024-11-14 11:10:18][INFO] Processing row with status: PENDING
+[2024-11-14 11:10:18][INFO] Processing row with status: PENDING
+[2024-11-14 11:10:18][INFO] Database connection closed
+[2024-11-14 11:10:48][INFO] Starting transaction fetch
+[2024-11-14 11:10:48][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:10:48][INFO] Database connected successfully
+[2024-11-14 11:10:48][INFO] WHERE conditions: 
+[2024-11-14 11:10:48][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:10:48][INFO] Total records found: 4
+[2024-11-14 11:10:48][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:10:48][INFO] Parameters: [10,0]
+[2024-11-14 11:10:48][INFO] Found 4 transactions
+[2024-11-14 11:10:48][INFO] Processing row with status: PENDING
+[2024-11-14 11:10:48][INFO] Processing row with status: PENDING
+[2024-11-14 11:10:48][INFO] Processing row with status: PENDING
+[2024-11-14 11:10:48][INFO] Processing row with status: PENDING
+[2024-11-14 11:10:48][INFO] Database connection closed
+[2024-11-14 11:11:28][INFO] Starting transaction fetch
+[2024-11-14 11:11:28][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:11:28][INFO] Database connected successfully
+[2024-11-14 11:11:28][INFO] WHERE conditions: 
+[2024-11-14 11:11:28][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:11:28][INFO] Total records found: 4
+[2024-11-14 11:11:28][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:11:28][INFO] Parameters: [10,0]
+[2024-11-14 11:11:28][INFO] Found 4 transactions
+[2024-11-14 11:11:28][INFO] Processing row with status: PENDING
+[2024-11-14 11:11:28][INFO] Processing row with status: PENDING
+[2024-11-14 11:11:28][INFO] Processing row with status: PENDING
+[2024-11-14 11:11:28][INFO] Processing row with status: PENDING
+[2024-11-14 11:11:28][INFO] Database connection closed
+[2024-11-14 11:26:58][INFO] Starting transaction fetch
+[2024-11-14 11:26:58][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-14 11:26:58][INFO] Database connected successfully
+[2024-11-14 11:26:58][INFO] WHERE conditions: 
+[2024-11-14 11:26:58][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-14 11:26:58][INFO] Total records found: 5
+[2024-11-14 11:26:58][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-14 11:26:58][INFO] Parameters: [10,0]
+[2024-11-14 11:26:58][INFO] Found 5 transactions
+[2024-11-14 11:26:58][INFO] Processing row with status: PENDING
+[2024-11-14 11:26:58][INFO] Processing row with status: PENDING
+[2024-11-14 11:26:58][INFO] Processing row with status: PENDING
+[2024-11-14 11:26:58][INFO] Processing row with status: PENDING
+[2024-11-14 11:26:58][INFO] Processing row with status: PENDING
+[2024-11-14 11:26:58][INFO] Database connection closed
+[2024-11-15 07:54:37][INFO] Starting transaction fetch
+[2024-11-15 07:54:37][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 07:54:37][INFO] Database connected successfully
+[2024-11-15 07:54:37][INFO] WHERE conditions: 
+[2024-11-15 07:54:37][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 07:54:37][INFO] Total records found: 6
+[2024-11-15 07:54:37][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 07:54:37][INFO] Parameters: [10,0]
+[2024-11-15 07:54:37][INFO] Found 6 transactions
+[2024-11-15 07:54:37][INFO] Processing row with status: PENDING
+[2024-11-15 07:54:37][INFO] Processing row with status: PENDING
+[2024-11-15 07:54:37][INFO] Processing row with status: PENDING
+[2024-11-15 07:54:37][INFO] Processing row with status: PENDING
+[2024-11-15 07:54:37][INFO] Processing row with status: PENDING
+[2024-11-15 07:54:37][INFO] Processing row with status: PENDING
+[2024-11-15 07:54:37][INFO] Database connection closed
+[2024-11-15 08:19:45][INFO] Starting transaction fetch
+[2024-11-15 08:19:45][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:19:45][INFO] Database connected successfully
+[2024-11-15 08:19:45][INFO] WHERE conditions: 
+[2024-11-15 08:19:45][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:19:45][INFO] Total records found: 10
+[2024-11-15 08:19:45][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:19:45][INFO] Parameters: [10,0]
+[2024-11-15 08:19:45][INFO] Found 10 transactions
+[2024-11-15 08:19:45][INFO] Processing row with status: PENDING
+[2024-11-15 08:19:45][INFO] Processing row with status: PENDING
+[2024-11-15 08:19:45][INFO] Processing row with status: PENDING
+[2024-11-15 08:19:45][INFO] Processing row with status: PENDING
+[2024-11-15 08:19:45][INFO] Processing row with status: PENDING
+[2024-11-15 08:19:45][INFO] Processing row with status: PENDING
+[2024-11-15 08:19:45][INFO] Processing row with status: PENDING
+[2024-11-15 08:19:45][INFO] Processing row with status: PENDING
+[2024-11-15 08:19:45][INFO] Processing row with status: PENDING
+[2024-11-15 08:19:45][INFO] Processing row with status: PENDING
+[2024-11-15 08:19:45][INFO] Database connection closed
+[2024-11-15 08:20:35][INFO] Starting transaction fetch
+[2024-11-15 08:20:35][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:20:35][INFO] Database connected successfully
+[2024-11-15 08:20:35][INFO] WHERE conditions: 
+[2024-11-15 08:20:35][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:20:36][INFO] Total records found: 11
+[2024-11-15 08:20:36][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:20:36][INFO] Parameters: [10,0]
+[2024-11-15 08:20:36][INFO] Found 10 transactions
+[2024-11-15 08:20:36][INFO] Processing row with status: 
+[2024-11-15 08:20:36][INFO] Processing row with status: PENDING
+[2024-11-15 08:20:36][INFO] Processing row with status: PENDING
+[2024-11-15 08:20:36][INFO] Processing row with status: PENDING
+[2024-11-15 08:20:36][INFO] Processing row with status: PENDING
+[2024-11-15 08:20:36][INFO] Processing row with status: PENDING
+[2024-11-15 08:20:36][INFO] Processing row with status: PENDING
+[2024-11-15 08:20:36][INFO] Processing row with status: PENDING
+[2024-11-15 08:20:36][INFO] Processing row with status: PENDING
+[2024-11-15 08:20:36][INFO] Processing row with status: PENDING
+[2024-11-15 08:20:36][INFO] Database connection closed
+[2024-11-15 08:20:37][INFO] Starting transaction fetch
+[2024-11-15 08:20:37][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:20:37][INFO] Database connected successfully
+[2024-11-15 08:20:37][INFO] WHERE conditions: 
+[2024-11-15 08:20:37][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:20:37][INFO] Total records found: 11
+[2024-11-15 08:20:37][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:20:37][INFO] Parameters: [10,0]
+[2024-11-15 08:20:37][INFO] Found 10 transactions
+[2024-11-15 08:20:37][INFO] Processing row with status: 
+[2024-11-15 08:20:37][INFO] Processing row with status: PENDING
+[2024-11-15 08:20:37][INFO] Processing row with status: PENDING
+[2024-11-15 08:20:37][INFO] Processing row with status: PENDING
+[2024-11-15 08:20:37][INFO] Processing row with status: PENDING
+[2024-11-15 08:20:37][INFO] Processing row with status: PENDING
+[2024-11-15 08:20:37][INFO] Processing row with status: PENDING
+[2024-11-15 08:20:37][INFO] Processing row with status: PENDING
+[2024-11-15 08:20:37][INFO] Processing row with status: PENDING
+[2024-11-15 08:20:37][INFO] Processing row with status: PENDING
+[2024-11-15 08:20:37][INFO] Database connection closed
+[2024-11-15 08:21:08][INFO] Starting transaction fetch
+[2024-11-15 08:21:08][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:21:08][INFO] Database connected successfully
+[2024-11-15 08:21:08][INFO] WHERE conditions: 
+[2024-11-15 08:21:08][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:21:08][INFO] Total records found: 11
+[2024-11-15 08:21:08][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:21:08][INFO] Parameters: [10,0]
+[2024-11-15 08:21:08][INFO] Found 10 transactions
+[2024-11-15 08:21:08][INFO] Processing row with status: 
+[2024-11-15 08:21:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:21:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:21:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:21:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:21:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:21:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:21:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:21:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:21:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:21:08][INFO] Database connection closed
+[2024-11-15 08:21:38][INFO] Starting transaction fetch
+[2024-11-15 08:21:38][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:21:38][INFO] Database connected successfully
+[2024-11-15 08:21:38][INFO] WHERE conditions: 
+[2024-11-15 08:21:38][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:21:38][INFO] Total records found: 11
+[2024-11-15 08:21:38][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:21:38][INFO] Parameters: [10,0]
+[2024-11-15 08:21:38][INFO] Found 10 transactions
+[2024-11-15 08:21:38][INFO] Processing row with status: 
+[2024-11-15 08:21:38][INFO] Processing row with status: PENDING
+[2024-11-15 08:21:38][INFO] Processing row with status: PENDING
+[2024-11-15 08:21:38][INFO] Processing row with status: PENDING
+[2024-11-15 08:21:38][INFO] Processing row with status: PENDING
+[2024-11-15 08:21:38][INFO] Processing row with status: PENDING
+[2024-11-15 08:21:38][INFO] Processing row with status: PENDING
+[2024-11-15 08:21:38][INFO] Processing row with status: PENDING
+[2024-11-15 08:21:38][INFO] Processing row with status: PENDING
+[2024-11-15 08:21:38][INFO] Processing row with status: PENDING
+[2024-11-15 08:21:38][INFO] Database connection closed
+[2024-11-15 08:22:08][INFO] Starting transaction fetch
+[2024-11-15 08:22:08][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:22:08][INFO] Database connected successfully
+[2024-11-15 08:22:08][INFO] WHERE conditions: 
+[2024-11-15 08:22:08][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:22:08][INFO] Total records found: 11
+[2024-11-15 08:22:08][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:22:08][INFO] Parameters: [10,0]
+[2024-11-15 08:22:08][INFO] Found 10 transactions
+[2024-11-15 08:22:08][INFO] Processing row with status: 
+[2024-11-15 08:22:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:22:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:22:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:22:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:22:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:22:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:22:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:22:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:22:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:22:08][INFO] Database connection closed
+[2024-11-15 08:22:38][INFO] Starting transaction fetch
+[2024-11-15 08:22:38][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:22:38][INFO] Database connected successfully
+[2024-11-15 08:22:38][INFO] WHERE conditions: 
+[2024-11-15 08:22:38][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:22:38][INFO] Total records found: 11
+[2024-11-15 08:22:38][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:22:38][INFO] Parameters: [10,0]
+[2024-11-15 08:22:38][INFO] Found 10 transactions
+[2024-11-15 08:22:38][INFO] Processing row with status: 
+[2024-11-15 08:22:38][INFO] Processing row with status: PENDING
+[2024-11-15 08:22:38][INFO] Processing row with status: PENDING
+[2024-11-15 08:22:38][INFO] Processing row with status: PENDING
+[2024-11-15 08:22:38][INFO] Processing row with status: PENDING
+[2024-11-15 08:22:38][INFO] Processing row with status: PENDING
+[2024-11-15 08:22:38][INFO] Processing row with status: PENDING
+[2024-11-15 08:22:38][INFO] Processing row with status: PENDING
+[2024-11-15 08:22:38][INFO] Processing row with status: PENDING
+[2024-11-15 08:22:38][INFO] Processing row with status: PENDING
+[2024-11-15 08:22:38][INFO] Database connection closed
+[2024-11-15 08:23:08][INFO] Starting transaction fetch
+[2024-11-15 08:23:08][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:23:08][INFO] Database connected successfully
+[2024-11-15 08:23:08][INFO] WHERE conditions: 
+[2024-11-15 08:23:08][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:23:08][INFO] Total records found: 11
+[2024-11-15 08:23:08][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:23:08][INFO] Parameters: [10,0]
+[2024-11-15 08:23:08][INFO] Found 10 transactions
+[2024-11-15 08:23:08][INFO] Processing row with status: 
+[2024-11-15 08:23:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:23:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:23:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:23:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:23:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:23:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:23:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:23:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:23:08][INFO] Processing row with status: PENDING
+[2024-11-15 08:23:08][INFO] Database connection closed
+[2024-11-15 08:23:45][INFO] Starting transaction fetch
+[2024-11-15 08:23:45][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:23:45][INFO] Database connected successfully
+[2024-11-15 08:23:45][INFO] WHERE conditions: 
+[2024-11-15 08:23:45][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:23:45][INFO] Total records found: 11
+[2024-11-15 08:23:45][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:23:45][INFO] Parameters: [10,0]
+[2024-11-15 08:23:45][INFO] Found 10 transactions
+[2024-11-15 08:23:45][INFO] Processing row with status: 
+[2024-11-15 08:23:45][INFO] Processing row with status: PENDING
+[2024-11-15 08:23:45][INFO] Processing row with status: PENDING
+[2024-11-15 08:23:45][INFO] Processing row with status: PENDING
+[2024-11-15 08:23:45][INFO] Processing row with status: PENDING
+[2024-11-15 08:23:45][INFO] Processing row with status: PENDING
+[2024-11-15 08:23:45][INFO] Processing row with status: PENDING
+[2024-11-15 08:23:45][INFO] Processing row with status: PENDING
+[2024-11-15 08:23:45][INFO] Processing row with status: PENDING
+[2024-11-15 08:23:45][INFO] Processing row with status: PENDING
+[2024-11-15 08:23:45][INFO] Database connection closed
+[2024-11-15 08:29:56][INFO] Starting transaction fetch
+[2024-11-15 08:29:56][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:29:56][INFO] Database connected successfully
+[2024-11-15 08:29:56][INFO] WHERE conditions: 
+[2024-11-15 08:29:56][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:29:56][INFO] Total records found: 0
+[2024-11-15 08:29:56][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:29:56][INFO] Parameters: [10,0]
+[2024-11-15 08:29:56][INFO] No transactions found for the given criteria
+[2024-11-15 08:29:56][INFO] Database connection closed
+[2024-11-15 08:29:58][INFO] Starting transaction fetch
+[2024-11-15 08:29:58][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:29:58][INFO] Database connected successfully
+[2024-11-15 08:29:58][INFO] WHERE conditions: 
+[2024-11-15 08:29:58][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:29:58][INFO] Total records found: 0
+[2024-11-15 08:29:58][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:29:58][INFO] Parameters: [10,0]
+[2024-11-15 08:29:58][INFO] No transactions found for the given criteria
+[2024-11-15 08:29:58][INFO] Database connection closed
+[2024-11-15 08:30:29][INFO] Starting transaction fetch
+[2024-11-15 08:30:29][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:30:29][INFO] Database connected successfully
+[2024-11-15 08:30:29][INFO] WHERE conditions: 
+[2024-11-15 08:30:29][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:30:29][INFO] Total records found: 0
+[2024-11-15 08:30:29][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:30:29][INFO] Parameters: [10,0]
+[2024-11-15 08:30:29][INFO] No transactions found for the given criteria
+[2024-11-15 08:30:29][INFO] Database connection closed
+[2024-11-15 08:30:59][INFO] Starting transaction fetch
+[2024-11-15 08:30:59][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:30:59][INFO] Database connected successfully
+[2024-11-15 08:30:59][INFO] WHERE conditions: 
+[2024-11-15 08:30:59][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:30:59][INFO] Total records found: 0
+[2024-11-15 08:30:59][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:30:59][INFO] Parameters: [10,0]
+[2024-11-15 08:30:59][INFO] No transactions found for the given criteria
+[2024-11-15 08:30:59][INFO] Database connection closed
+[2024-11-15 08:31:29][INFO] Starting transaction fetch
+[2024-11-15 08:31:29][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:31:29][INFO] Database connected successfully
+[2024-11-15 08:31:29][INFO] WHERE conditions: 
+[2024-11-15 08:31:29][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:31:29][INFO] Total records found: 0
+[2024-11-15 08:31:29][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:31:29][INFO] Parameters: [10,0]
+[2024-11-15 08:31:29][INFO] No transactions found for the given criteria
+[2024-11-15 08:31:29][INFO] Database connection closed
+[2024-11-15 08:31:59][INFO] Starting transaction fetch
+[2024-11-15 08:31:59][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:31:59][INFO] Database connected successfully
+[2024-11-15 08:31:59][INFO] WHERE conditions: 
+[2024-11-15 08:31:59][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:31:59][INFO] Total records found: 0
+[2024-11-15 08:31:59][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:31:59][INFO] Parameters: [10,0]
+[2024-11-15 08:31:59][INFO] No transactions found for the given criteria
+[2024-11-15 08:31:59][INFO] Database connection closed
+[2024-11-15 08:32:29][INFO] Starting transaction fetch
+[2024-11-15 08:32:29][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:32:29][INFO] Database connected successfully
+[2024-11-15 08:32:29][INFO] WHERE conditions: 
+[2024-11-15 08:32:29][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:32:29][INFO] Total records found: 0
+[2024-11-15 08:32:29][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:32:29][INFO] Parameters: [10,0]
+[2024-11-15 08:32:29][INFO] No transactions found for the given criteria
+[2024-11-15 08:32:29][INFO] Database connection closed
+[2024-11-15 08:33:30][INFO] Starting transaction fetch
+[2024-11-15 08:33:30][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:33:30][INFO] Database connected successfully
+[2024-11-15 08:33:30][INFO] WHERE conditions: 
+[2024-11-15 08:33:30][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:33:30][INFO] Total records found: 0
+[2024-11-15 08:33:30][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:33:30][INFO] Parameters: [10,0]
+[2024-11-15 08:33:30][INFO] No transactions found for the given criteria
+[2024-11-15 08:33:30][INFO] Database connection closed
+[2024-11-15 08:34:31][INFO] Starting transaction fetch
+[2024-11-15 08:34:31][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:34:31][INFO] Database connected successfully
+[2024-11-15 08:34:31][INFO] WHERE conditions: 
+[2024-11-15 08:34:31][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:34:31][INFO] Total records found: 0
+[2024-11-15 08:34:31][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:34:31][INFO] Parameters: [10,0]
+[2024-11-15 08:34:31][INFO] No transactions found for the given criteria
+[2024-11-15 08:34:31][INFO] Database connection closed
+[2024-11-15 08:36:42][INFO] Starting transaction fetch
+[2024-11-15 08:36:42][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:36:42][INFO] Database connected successfully
+[2024-11-15 08:36:42][INFO] WHERE conditions: 
+[2024-11-15 08:36:42][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:36:42][ERROR] Error: Table 'ecommerce.mpesa_payments' doesn't exist
+[2024-11-15 08:36:42][INFO] Database connection closed
+[2024-11-15 08:36:50][INFO] Starting transaction fetch
+[2024-11-15 08:36:50][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:36:50][INFO] Database connected successfully
+[2024-11-15 08:36:50][INFO] WHERE conditions: 
+[2024-11-15 08:36:50][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:36:50][INFO] Total records found: 0
+[2024-11-15 08:36:51][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:36:51][INFO] Parameters: [10,0]
+[2024-11-15 08:36:51][INFO] No transactions found for the given criteria
+[2024-11-15 08:36:51][INFO] Database connection closed
+[2024-11-15 08:48:13][INFO] Starting transaction fetch
+[2024-11-15 08:48:13][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:48:13][INFO] Database connected successfully
+[2024-11-15 08:48:13][INFO] WHERE conditions: 
+[2024-11-15 08:48:13][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:48:13][INFO] Total records found: 1
+[2024-11-15 08:48:13][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:48:13][INFO] Parameters: [10,0]
+[2024-11-15 08:48:13][INFO] Found 1 transactions
+[2024-11-15 08:48:13][INFO] Processing row with status: CANCELLED
+[2024-11-15 08:48:13][INFO] Database connection closed
+[2024-11-15 08:50:51][INFO] Starting transaction fetch
+[2024-11-15 08:50:51][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:50:51][INFO] Database connected successfully
+[2024-11-15 08:50:51][INFO] WHERE conditions: 
+[2024-11-15 08:50:51][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:50:51][INFO] Total records found: 2
+[2024-11-15 08:50:51][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:50:51][INFO] Parameters: [10,0]
+[2024-11-15 08:50:51][INFO] Found 2 transactions
+[2024-11-15 08:50:51][INFO] Processing row with status: COMPLETED
+[2024-11-15 08:50:51][INFO] Processing row with status: CANCELLED
+[2024-11-15 08:50:51][INFO] Database connection closed
+[2024-11-15 08:51:22][INFO] Starting transaction fetch
+[2024-11-15 08:51:22][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:51:22][INFO] Database connected successfully
+[2024-11-15 08:51:22][INFO] WHERE conditions: 
+[2024-11-15 08:51:22][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:51:22][INFO] Total records found: 2
+[2024-11-15 08:51:22][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:51:22][INFO] Parameters: [10,0]
+[2024-11-15 08:51:22][INFO] Found 2 transactions
+[2024-11-15 08:51:22][INFO] Processing row with status: COMPLETED
+[2024-11-15 08:51:22][INFO] Processing row with status: CANCELLED
+[2024-11-15 08:51:22][INFO] Database connection closed
+[2024-11-15 08:51:52][INFO] Starting transaction fetch
+[2024-11-15 08:51:52][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:51:52][INFO] Database connected successfully
+[2024-11-15 08:51:52][INFO] WHERE conditions: 
+[2024-11-15 08:51:52][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:51:52][INFO] Total records found: 2
+[2024-11-15 08:51:52][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:51:52][INFO] Parameters: [10,0]
+[2024-11-15 08:51:52][INFO] Found 2 transactions
+[2024-11-15 08:51:52][INFO] Processing row with status: COMPLETED
+[2024-11-15 08:51:52][INFO] Processing row with status: CANCELLED
+[2024-11-15 08:51:52][INFO] Database connection closed
+[2024-11-15 08:52:22][INFO] Starting transaction fetch
+[2024-11-15 08:52:22][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:52:22][INFO] Database connected successfully
+[2024-11-15 08:52:22][INFO] WHERE conditions: 
+[2024-11-15 08:52:22][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:52:22][INFO] Total records found: 2
+[2024-11-15 08:52:22][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:52:22][INFO] Parameters: [10,0]
+[2024-11-15 08:52:22][INFO] Found 2 transactions
+[2024-11-15 08:52:22][INFO] Processing row with status: COMPLETED
+[2024-11-15 08:52:22][INFO] Processing row with status: CANCELLED
+[2024-11-15 08:52:22][INFO] Database connection closed
+[2024-11-15 08:52:52][INFO] Starting transaction fetch
+[2024-11-15 08:52:52][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:52:52][INFO] Database connected successfully
+[2024-11-15 08:52:52][INFO] WHERE conditions: 
+[2024-11-15 08:52:52][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:52:52][INFO] Total records found: 2
+[2024-11-15 08:52:52][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:52:52][INFO] Parameters: [10,0]
+[2024-11-15 08:52:52][INFO] Found 2 transactions
+[2024-11-15 08:52:52][INFO] Processing row with status: COMPLETED
+[2024-11-15 08:52:52][INFO] Processing row with status: CANCELLED
+[2024-11-15 08:52:52][INFO] Database connection closed
+[2024-11-15 08:55:17][INFO] Starting transaction fetch
+[2024-11-15 08:55:17][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:55:17][INFO] Database connected successfully
+[2024-11-15 08:55:17][INFO] WHERE conditions: 
+[2024-11-15 08:55:17][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:55:17][INFO] Total records found: 2
+[2024-11-15 08:55:17][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:55:17][INFO] Parameters: [10,0]
+[2024-11-15 08:55:17][INFO] Found 2 transactions
+[2024-11-15 08:55:17][INFO] Processing row with status: COMPLETED
+[2024-11-15 08:55:17][INFO] Processing row with status: CANCELLED
+[2024-11-15 08:55:17][INFO] Database connection closed
+[2024-11-15 08:55:48][INFO] Starting transaction fetch
+[2024-11-15 08:55:48][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:55:48][INFO] Database connected successfully
+[2024-11-15 08:55:48][INFO] WHERE conditions: 
+[2024-11-15 08:55:48][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:55:48][INFO] Total records found: 2
+[2024-11-15 08:55:48][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:55:48][INFO] Parameters: [10,0]
+[2024-11-15 08:55:48][INFO] Found 2 transactions
+[2024-11-15 08:55:48][INFO] Processing row with status: COMPLETED
+[2024-11-15 08:55:48][INFO] Processing row with status: CANCELLED
+[2024-11-15 08:55:48][INFO] Database connection closed
+[2024-11-15 08:56:18][INFO] Starting transaction fetch
+[2024-11-15 08:56:18][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:56:18][INFO] Database connected successfully
+[2024-11-15 08:56:18][INFO] WHERE conditions: 
+[2024-11-15 08:56:18][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:56:18][INFO] Total records found: 2
+[2024-11-15 08:56:18][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:56:18][INFO] Parameters: [10,0]
+[2024-11-15 08:56:18][INFO] Found 2 transactions
+[2024-11-15 08:56:18][INFO] Processing row with status: COMPLETED
+[2024-11-15 08:56:18][INFO] Processing row with status: CANCELLED
+[2024-11-15 08:56:18][INFO] Database connection closed
+[2024-11-15 08:56:48][INFO] Starting transaction fetch
+[2024-11-15 08:56:48][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:56:48][INFO] Database connected successfully
+[2024-11-15 08:56:48][INFO] WHERE conditions: 
+[2024-11-15 08:56:48][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:56:48][INFO] Total records found: 2
+[2024-11-15 08:56:48][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:56:48][INFO] Parameters: [10,0]
+[2024-11-15 08:56:48][INFO] Found 2 transactions
+[2024-11-15 08:56:48][INFO] Processing row with status: COMPLETED
+[2024-11-15 08:56:48][INFO] Processing row with status: CANCELLED
+[2024-11-15 08:56:48][INFO] Database connection closed
+[2024-11-15 08:57:18][INFO] Starting transaction fetch
+[2024-11-15 08:57:18][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:57:18][INFO] Database connected successfully
+[2024-11-15 08:57:18][INFO] WHERE conditions: 
+[2024-11-15 08:57:18][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:57:18][INFO] Total records found: 2
+[2024-11-15 08:57:18][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:57:18][INFO] Parameters: [10,0]
+[2024-11-15 08:57:18][INFO] Found 2 transactions
+[2024-11-15 08:57:18][INFO] Processing row with status: COMPLETED
+[2024-11-15 08:57:18][INFO] Processing row with status: CANCELLED
+[2024-11-15 08:57:18][INFO] Database connection closed
+[2024-11-15 08:57:48][INFO] Starting transaction fetch
+[2024-11-15 08:57:48][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:57:48][INFO] Database connected successfully
+[2024-11-15 08:57:48][INFO] WHERE conditions: 
+[2024-11-15 08:57:48][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:57:48][INFO] Total records found: 2
+[2024-11-15 08:57:48][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:57:48][INFO] Parameters: [10,0]
+[2024-11-15 08:57:48][INFO] Found 2 transactions
+[2024-11-15 08:57:48][INFO] Processing row with status: COMPLETED
+[2024-11-15 08:57:48][INFO] Processing row with status: CANCELLED
+[2024-11-15 08:57:48][INFO] Database connection closed
+[2024-11-15 08:58:45][INFO] Starting transaction fetch
+[2024-11-15 08:58:45][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:58:45][INFO] Database connected successfully
+[2024-11-15 08:58:45][INFO] WHERE conditions: 
+[2024-11-15 08:58:45][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:58:45][INFO] Total records found: 2
+[2024-11-15 08:58:45][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:58:45][INFO] Parameters: [10,0]
+[2024-11-15 08:58:45][INFO] Found 2 transactions
+[2024-11-15 08:58:45][INFO] Processing row with status: COMPLETED
+[2024-11-15 08:58:45][INFO] Processing row with status: CANCELLED
+[2024-11-15 08:58:45][INFO] Database connection closed
+[2024-11-15 08:59:45][INFO] Starting transaction fetch
+[2024-11-15 08:59:45][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:59:45][INFO] Database connected successfully
+[2024-11-15 08:59:45][INFO] WHERE conditions: 
+[2024-11-15 08:59:45][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:59:45][INFO] Total records found: 2
+[2024-11-15 08:59:45][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:59:45][INFO] Parameters: [10,0]
+[2024-11-15 08:59:45][INFO] Found 2 transactions
+[2024-11-15 08:59:45][INFO] Processing row with status: COMPLETED
+[2024-11-15 08:59:45][INFO] Processing row with status: CANCELLED
+[2024-11-15 08:59:45][INFO] Database connection closed
+[2024-11-15 08:59:48][INFO] Starting transaction fetch
+[2024-11-15 08:59:48][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 08:59:48][INFO] Database connected successfully
+[2024-11-15 08:59:48][INFO] WHERE conditions: 
+[2024-11-15 08:59:48][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 08:59:48][INFO] Total records found: 2
+[2024-11-15 08:59:48][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 08:59:48][INFO] Parameters: [10,0]
+[2024-11-15 08:59:48][INFO] Found 2 transactions
+[2024-11-15 08:59:48][INFO] Processing row with status: COMPLETED
+[2024-11-15 08:59:48][INFO] Processing row with status: CANCELLED
+[2024-11-15 08:59:48][INFO] Database connection closed
+[2024-11-15 09:04:33][INFO] Starting transaction fetch
+[2024-11-15 09:04:33][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 09:04:33][INFO] Database connected successfully
+[2024-11-15 09:04:33][INFO] WHERE conditions: 
+[2024-11-15 09:04:33][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 09:04:33][INFO] Total records found: 3
+[2024-11-15 09:04:33][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 09:04:33][INFO] Parameters: [10,0]
+[2024-11-15 09:04:33][INFO] Found 3 transactions
+[2024-11-15 09:04:33][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:04:33][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:04:33][INFO] Processing row with status: CANCELLED
+[2024-11-15 09:04:33][INFO] Database connection closed
+[2024-11-15 09:05:16][INFO] Starting transaction fetch
+[2024-11-15 09:05:16][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 09:05:16][INFO] Database connected successfully
+[2024-11-15 09:05:16][INFO] WHERE conditions: 
+[2024-11-15 09:05:16][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 09:05:16][INFO] Total records found: 4
+[2024-11-15 09:05:16][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 09:05:16][INFO] Parameters: [10,0]
+[2024-11-15 09:05:16][INFO] Found 4 transactions
+[2024-11-15 09:05:16][INFO] Processing row with status: FAILED
+[2024-11-15 09:05:16][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:05:16][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:05:16][INFO] Processing row with status: CANCELLED
+[2024-11-15 09:05:16][INFO] Database connection closed
+[2024-11-15 09:21:32][INFO] Starting transaction fetch
+[2024-11-15 09:21:32][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 09:21:32][INFO] Database connected successfully
+[2024-11-15 09:21:32][INFO] WHERE conditions: 
+[2024-11-15 09:21:32][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 09:21:32][INFO] Total records found: 6
+[2024-11-15 09:21:32][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 09:21:32][INFO] Parameters: [10,0]
+[2024-11-15 09:21:32][INFO] Found 6 transactions
+[2024-11-15 09:21:32][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:21:32][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:21:32][INFO] Processing row with status: FAILED
+[2024-11-15 09:21:32][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:21:32][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:21:32][INFO] Processing row with status: CANCELLED
+[2024-11-15 09:21:32][INFO] Database connection closed
+[2024-11-15 09:29:03][INFO] Starting transaction fetch
+[2024-11-15 09:29:03][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 09:29:03][INFO] Database connected successfully
+[2024-11-15 09:29:03][INFO] WHERE conditions: 
+[2024-11-15 09:29:03][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 09:29:03][INFO] Total records found: 8
+[2024-11-15 09:29:03][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 09:29:03][INFO] Parameters: [10,0]
+[2024-11-15 09:29:03][INFO] Found 8 transactions
+[2024-11-15 09:29:03][INFO] Processing row with status: CANCELLED
+[2024-11-15 09:29:03][INFO] Processing row with status: UNKNOWN
+[2024-11-15 09:29:03][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:29:03][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:29:03][INFO] Processing row with status: FAILED
+[2024-11-15 09:29:03][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:29:03][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:29:03][INFO] Processing row with status: CANCELLED
+[2024-11-15 09:29:03][INFO] Database connection closed
+[2024-11-15 09:29:50][INFO] Starting transaction fetch
+[2024-11-15 09:29:50][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 09:29:50][INFO] Database connected successfully
+[2024-11-15 09:29:50][INFO] WHERE conditions: 
+[2024-11-15 09:29:50][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 09:29:50][INFO] Total records found: 9
+[2024-11-15 09:29:50][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 09:29:50][INFO] Parameters: [10,0]
+[2024-11-15 09:29:50][INFO] Found 9 transactions
+[2024-11-15 09:29:50][INFO] Processing row with status: FAILED
+[2024-11-15 09:29:50][INFO] Processing row with status: CANCELLED
+[2024-11-15 09:29:50][INFO] Processing row with status: UNKNOWN
+[2024-11-15 09:29:50][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:29:50][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:29:50][INFO] Processing row with status: FAILED
+[2024-11-15 09:29:50][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:29:50][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:29:50][INFO] Processing row with status: CANCELLED
+[2024-11-15 09:29:50][INFO] Database connection closed
+[2024-11-15 09:54:49][INFO] Starting transaction fetch
+[2024-11-15 09:54:49][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 09:54:49][INFO] Database connected successfully
+[2024-11-15 09:54:49][INFO] WHERE conditions: 
+[2024-11-15 09:54:49][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 09:54:49][INFO] Total records found: 11
+[2024-11-15 09:54:49][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 09:54:49][INFO] Parameters: [10,0]
+[2024-11-15 09:54:49][INFO] Found 10 transactions
+[2024-11-15 09:54:49][INFO] Processing row with status: FAILED
+[2024-11-15 09:54:49][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:54:49][INFO] Processing row with status: FAILED
+[2024-11-15 09:54:49][INFO] Processing row with status: CANCELLED
+[2024-11-15 09:54:49][INFO] Processing row with status: UNKNOWN
+[2024-11-15 09:54:49][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:54:49][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:54:49][INFO] Processing row with status: FAILED
+[2024-11-15 09:54:49][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:54:49][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:54:49][INFO] Database connection closed
+[2024-11-15 09:56:09][INFO] Starting transaction fetch
+[2024-11-15 09:56:09][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 09:56:09][INFO] Database connected successfully
+[2024-11-15 09:56:09][INFO] WHERE conditions: 
+[2024-11-15 09:56:09][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 09:56:09][INFO] Total records found: 12
+[2024-11-15 09:56:09][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 09:56:09][INFO] Parameters: [10,0]
+[2024-11-15 09:56:09][INFO] Found 10 transactions
+[2024-11-15 09:56:09][INFO] Processing row with status: FAILED
+[2024-11-15 09:56:09][INFO] Processing row with status: FAILED
+[2024-11-15 09:56:09][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:56:09][INFO] Processing row with status: FAILED
+[2024-11-15 09:56:09][INFO] Processing row with status: CANCELLED
+[2024-11-15 09:56:09][INFO] Processing row with status: UNKNOWN
+[2024-11-15 09:56:09][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:56:09][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:56:09][INFO] Processing row with status: FAILED
+[2024-11-15 09:56:09][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:56:09][INFO] Database connection closed
+[2024-11-15 09:57:47][INFO] Starting transaction fetch
+[2024-11-15 09:57:47][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 09:57:47][INFO] Database connected successfully
+[2024-11-15 09:57:47][INFO] WHERE conditions: 
+[2024-11-15 09:57:47][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 09:57:47][INFO] Total records found: 13
+[2024-11-15 09:57:47][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 09:57:47][INFO] Parameters: [10,0]
+[2024-11-15 09:57:47][INFO] Found 10 transactions
+[2024-11-15 09:57:47][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:57:47][INFO] Processing row with status: FAILED
+[2024-11-15 09:57:47][INFO] Processing row with status: FAILED
+[2024-11-15 09:57:47][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:57:47][INFO] Processing row with status: FAILED
+[2024-11-15 09:57:47][INFO] Processing row with status: CANCELLED
+[2024-11-15 09:57:47][INFO] Processing row with status: UNKNOWN
+[2024-11-15 09:57:47][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:57:47][INFO] Processing row with status: COMPLETED
+[2024-11-15 09:57:47][INFO] Processing row with status: FAILED
+[2024-11-15 09:57:47][INFO] Database connection closed
+[2024-11-15 10:02:40][INFO] Starting transaction fetch
+[2024-11-15 10:02:40][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 10:02:40][INFO] Database connected successfully
+[2024-11-15 10:02:40][INFO] WHERE conditions: 
+[2024-11-15 10:02:40][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 10:02:40][INFO] Total records found: 14
+[2024-11-15 10:02:40][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 10:02:40][INFO] Parameters: [10,0]
+[2024-11-15 10:02:40][INFO] Found 10 transactions
+[2024-11-15 10:02:40][INFO] Processing row with status: FAILED
+[2024-11-15 10:02:40][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:02:40][INFO] Processing row with status: FAILED
+[2024-11-15 10:02:40][INFO] Processing row with status: FAILED
+[2024-11-15 10:02:40][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:02:40][INFO] Processing row with status: FAILED
+[2024-11-15 10:02:40][INFO] Processing row with status: CANCELLED
+[2024-11-15 10:02:40][INFO] Processing row with status: UNKNOWN
+[2024-11-15 10:02:40][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:02:40][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:02:40][INFO] Database connection closed
+[2024-11-15 10:03:11][INFO] Starting transaction fetch
+[2024-11-15 10:03:11][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 10:03:11][INFO] Database connected successfully
+[2024-11-15 10:03:11][INFO] WHERE conditions: 
+[2024-11-15 10:03:11][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 10:03:11][INFO] Total records found: 14
+[2024-11-15 10:03:11][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 10:03:11][INFO] Parameters: [10,0]
+[2024-11-15 10:03:11][INFO] Found 10 transactions
+[2024-11-15 10:03:11][INFO] Processing row with status: FAILED
+[2024-11-15 10:03:11][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:03:11][INFO] Processing row with status: FAILED
+[2024-11-15 10:03:11][INFO] Processing row with status: FAILED
+[2024-11-15 10:03:11][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:03:11][INFO] Processing row with status: FAILED
+[2024-11-15 10:03:11][INFO] Processing row with status: CANCELLED
+[2024-11-15 10:03:11][INFO] Processing row with status: UNKNOWN
+[2024-11-15 10:03:11][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:03:11][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:03:11][INFO] Database connection closed
+[2024-11-15 10:03:41][INFO] Starting transaction fetch
+[2024-11-15 10:03:41][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 10:03:41][INFO] Database connected successfully
+[2024-11-15 10:03:41][INFO] WHERE conditions: 
+[2024-11-15 10:03:41][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 10:03:41][INFO] Total records found: 14
+[2024-11-15 10:03:41][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 10:03:41][INFO] Parameters: [10,0]
+[2024-11-15 10:03:41][INFO] Found 10 transactions
+[2024-11-15 10:03:41][INFO] Processing row with status: FAILED
+[2024-11-15 10:03:41][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:03:41][INFO] Processing row with status: FAILED
+[2024-11-15 10:03:41][INFO] Processing row with status: FAILED
+[2024-11-15 10:03:41][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:03:41][INFO] Processing row with status: FAILED
+[2024-11-15 10:03:41][INFO] Processing row with status: CANCELLED
+[2024-11-15 10:03:41][INFO] Processing row with status: UNKNOWN
+[2024-11-15 10:03:41][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:03:41][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:03:41][INFO] Database connection closed
+[2024-11-15 10:04:11][INFO] Starting transaction fetch
+[2024-11-15 10:04:11][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 10:04:11][INFO] Database connected successfully
+[2024-11-15 10:04:11][INFO] WHERE conditions: 
+[2024-11-15 10:04:11][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 10:04:11][INFO] Total records found: 14
+[2024-11-15 10:04:11][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 10:04:11][INFO] Parameters: [10,0]
+[2024-11-15 10:04:11][INFO] Found 10 transactions
+[2024-11-15 10:04:11][INFO] Processing row with status: FAILED
+[2024-11-15 10:04:11][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:04:11][INFO] Processing row with status: FAILED
+[2024-11-15 10:04:11][INFO] Processing row with status: FAILED
+[2024-11-15 10:04:11][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:04:11][INFO] Processing row with status: FAILED
+[2024-11-15 10:04:11][INFO] Processing row with status: CANCELLED
+[2024-11-15 10:04:11][INFO] Processing row with status: UNKNOWN
+[2024-11-15 10:04:11][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:04:11][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:04:11][INFO] Database connection closed
+[2024-11-15 10:04:41][INFO] Starting transaction fetch
+[2024-11-15 10:04:41][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 10:04:41][INFO] Database connected successfully
+[2024-11-15 10:04:41][INFO] WHERE conditions: 
+[2024-11-15 10:04:41][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 10:04:41][INFO] Total records found: 14
+[2024-11-15 10:04:41][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 10:04:41][INFO] Parameters: [10,0]
+[2024-11-15 10:04:41][INFO] Found 10 transactions
+[2024-11-15 10:04:41][INFO] Processing row with status: FAILED
+[2024-11-15 10:04:41][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:04:41][INFO] Processing row with status: FAILED
+[2024-11-15 10:04:41][INFO] Processing row with status: FAILED
+[2024-11-15 10:04:41][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:04:41][INFO] Processing row with status: FAILED
+[2024-11-15 10:04:41][INFO] Processing row with status: CANCELLED
+[2024-11-15 10:04:41][INFO] Processing row with status: UNKNOWN
+[2024-11-15 10:04:41][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:04:41][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:04:41][INFO] Database connection closed
+[2024-11-15 10:05:11][INFO] Starting transaction fetch
+[2024-11-15 10:05:11][INFO] Received parameters: {"page":1,"limit":10,"status":null,"startDate":null,"endDate":null,"phone":null}
+[2024-11-15 10:05:11][INFO] Database connected successfully
+[2024-11-15 10:05:11][INFO] WHERE conditions: 
+[2024-11-15 10:05:11][INFO] Count query: SELECT COUNT(*) as total FROM mpesa_payments
+[2024-11-15 10:05:11][INFO] Total records found: 14
+[2024-11-15 10:05:11][INFO] Executing main query: SELECT 
+                id,
+                checkout_request_id,
+                phone_number,
+                amount,
+                created_at,
+                status,
+                mpesa_receipt
+              FROM mpesa_payments ORDER BY created_at DESC LIMIT ? OFFSET ?
+[2024-11-15 10:05:11][INFO] Parameters: [10,0]
+[2024-11-15 10:05:11][INFO] Found 10 transactions
+[2024-11-15 10:05:11][INFO] Processing row with status: FAILED
+[2024-11-15 10:05:11][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:05:11][INFO] Processing row with status: FAILED
+[2024-11-15 10:05:11][INFO] Processing row with status: FAILED
+[2024-11-15 10:05:11][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:05:11][INFO] Processing row with status: FAILED
+[2024-11-15 10:05:11][INFO] Processing row with status: CANCELLED
+[2024-11-15 10:05:11][INFO] Processing row with status: UNKNOWN
+[2024-11-15 10:05:11][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:05:11][INFO] Processing row with status: COMPLETED
+[2024-11-15 10:05:11][INFO] Database connection closed

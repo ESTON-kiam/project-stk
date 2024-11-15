@@ -1,0 +1,15 @@
+[{
+    "MerchantRequestID": "94fc-460e-a970-797968bf6a85468527",
+    "CheckoutRequestID": "ws_CO_11102024165231068757196660",
+    "ResponseCode": "0",
+    "ResponseDescription": "Success. Request accepted for processing",
+    "CustomerMessage": "Success. Request accepted for processing"
+},
+{
+    "MerchantRequestID": "94fc-460e-a970-797968bf6a85468527",
+    "CheckoutRequestID": "ws_CO_11102024165231068757196660",
+    "ResponseCode": "0",
+    "ResponseDescription": "Success. Request accepted for processing",
+    "CustomerMessage": "Success. Request accepted for processing"
+}
+]
