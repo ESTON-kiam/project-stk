@@ -245,7 +245,7 @@ class DatabaseHandler {
     
     private function updateOrderStatus($checkoutRequestId) {
         try {
-            // First get the order_id associated with this payment
+           
             $query = "SELECT order_id FROM mpesa_payments WHERE checkout_request_id = ?";
             $stmt = $this->conn->prepare($query);
             if (!$stmt) {

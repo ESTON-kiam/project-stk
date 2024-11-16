@@ -5486,3 +5486,1583 @@
         
 [2024-11-15 12:58:37] [INFO] Database connection established successfully
 [2024-11-15 12:58:37] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024125714462757196660
+[2024-11-15 13:03:05] [INFO] Starting payment status check request
+[2024-11-15 13:03:05] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:07] [INFO] Access token generated successfully
+[2024-11-15 15:03:07] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 15:03:07] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwMzA3","Timestamp":"20241115150307","CheckoutRequestID":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:08] [INFO] MPesa API Response: {
+                    "requestId":"ws_CO_15112024150337677768944896",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": "The transaction is being processed"
+                }
+            
+[2024-11-15 15:03:08] [ERROR] Error in main execution: Invalid MPesa response: ResultCode missing
+[2024-11-15 13:03:10] [INFO] Starting payment status check request
+[2024-11-15 13:03:10] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:11] [INFO] Access token generated successfully
+[2024-11-15 15:03:11] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 15:03:11] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwMzEx","Timestamp":"20241115150311","CheckoutRequestID":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:12] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516589",
+            "CheckoutRequestID":"ws_CO_15112024150337677768944896",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-15 15:03:12] [INFO] Database connection established successfully
+[2024-11-15 15:03:12] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 13:03:16] [INFO] Starting payment status check request
+[2024-11-15 13:03:16] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:17] [INFO] Access token generated successfully
+[2024-11-15 15:03:17] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 15:03:17] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwMzE3","Timestamp":"20241115150317","CheckoutRequestID":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:23] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516589",
+            "CheckoutRequestID":"ws_CO_15112024150337677768944896",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-15 15:03:23] [INFO] Database connection established successfully
+[2024-11-15 15:03:23] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 13:03:23] [INFO] Starting payment status check request
+[2024-11-15 13:03:23] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:23] [INFO] Access token generated successfully
+[2024-11-15 15:03:23] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 15:03:23] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwMzIz","Timestamp":"20241115150323","CheckoutRequestID":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:25] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516589",
+            "CheckoutRequestID":"ws_CO_15112024150337677768944896",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-15 15:03:25] [INFO] Database connection established successfully
+[2024-11-15 15:03:25] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 13:03:25] [INFO] Starting payment status check request
+[2024-11-15 13:03:25] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:28] [INFO] Access token generated successfully
+[2024-11-15 15:03:28] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 15:03:28] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwMzI4","Timestamp":"20241115150328","CheckoutRequestID":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:29] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516589",
+            "CheckoutRequestID":"ws_CO_15112024150337677768944896",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-15 15:03:29] [INFO] Database connection established successfully
+[2024-11-15 15:03:29] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 13:03:30] [INFO] Starting payment status check request
+[2024-11-15 13:03:30] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:31] [INFO] Access token generated successfully
+[2024-11-15 15:03:31] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 15:03:31] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwMzMx","Timestamp":"20241115150331","CheckoutRequestID":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:35] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516589",
+            "CheckoutRequestID":"ws_CO_15112024150337677768944896",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-15 15:03:35] [INFO] Database connection established successfully
+[2024-11-15 15:03:35] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 13:03:35] [INFO] Starting payment status check request
+[2024-11-15 13:03:35] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:37] [INFO] Access token generated successfully
+[2024-11-15 15:03:37] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 15:03:37] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwMzM3","Timestamp":"20241115150337","CheckoutRequestID":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:40] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516589",
+            "CheckoutRequestID":"ws_CO_15112024150337677768944896",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-15 15:03:40] [INFO] Database connection established successfully
+[2024-11-15 15:03:40] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 13:03:40] [INFO] Starting payment status check request
+[2024-11-15 13:03:40] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:42] [INFO] Access token generated successfully
+[2024-11-15 15:03:42] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 15:03:42] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwMzQy","Timestamp":"20241115150342","CheckoutRequestID":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:43] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516589",
+            "CheckoutRequestID":"ws_CO_15112024150337677768944896",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-15 15:03:43] [INFO] Database connection established successfully
+[2024-11-15 15:03:43] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 13:03:45] [INFO] Starting payment status check request
+[2024-11-15 13:03:45] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:51] [INFO] Access token generated successfully
+[2024-11-15 15:03:51] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 15:03:51] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwMzUx","Timestamp":"20241115150351","CheckoutRequestID":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:52] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516589",
+            "CheckoutRequestID":"ws_CO_15112024150337677768944896",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-15 15:03:52] [INFO] Database connection established successfully
+[2024-11-15 15:03:52] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 13:03:52] [INFO] Starting payment status check request
+[2024-11-15 13:03:52] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:55] [INFO] Access token generated successfully
+[2024-11-15 15:03:55] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 15:03:55] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwMzU1","Timestamp":"20241115150355","CheckoutRequestID":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:58] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516589",
+            "CheckoutRequestID":"ws_CO_15112024150337677768944896",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-15 15:03:58] [INFO] Database connection established successfully
+[2024-11-15 15:03:58] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 13:03:58] [INFO] Starting payment status check request
+[2024-11-15 13:03:58] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:03:59] [INFO] Access token generated successfully
+[2024-11-15 15:03:59] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 15:03:59] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwMzU5","Timestamp":"20241115150359","CheckoutRequestID":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:04:01] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516589",
+            "CheckoutRequestID":"ws_CO_15112024150337677768944896",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-15 15:04:01] [INFO] Database connection established successfully
+[2024-11-15 15:04:01] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 13:04:01] [INFO] Starting payment status check request
+[2024-11-15 13:04:01] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:04:02] [INFO] Access token generated successfully
+[2024-11-15 15:04:02] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 15:04:02] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwNDAy","Timestamp":"20241115150402","CheckoutRequestID":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:04:05] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516589",
+            "CheckoutRequestID":"ws_CO_15112024150337677768944896",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-15 15:04:05] [INFO] Database connection established successfully
+[2024-11-15 15:04:05] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 13:04:05] [INFO] Starting payment status check request
+[2024-11-15 13:04:05] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:04:06] [INFO] Access token generated successfully
+[2024-11-15 15:04:06] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 15:04:06] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwNDA2","Timestamp":"20241115150406","CheckoutRequestID":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:04:09] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516589",
+            "CheckoutRequestID":"ws_CO_15112024150337677768944896",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-15 15:04:09] [INFO] Database connection established successfully
+[2024-11-15 15:04:09] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 13:04:10] [INFO] Starting payment status check request
+[2024-11-15 13:04:10] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:04:14] [INFO] Access token generated successfully
+[2024-11-15 15:04:14] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 15:04:14] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwNDE0","Timestamp":"20241115150414","CheckoutRequestID":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:04:20] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516589",
+            "CheckoutRequestID":"ws_CO_15112024150337677768944896",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-15 15:04:20] [INFO] Database connection established successfully
+[2024-11-15 15:04:20] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 13:04:30] [INFO] Starting payment status check request
+[2024-11-15 13:04:30] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:04:36] [INFO] Access token generated successfully
+[2024-11-15 15:04:36] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 15:04:36] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwNDM2","Timestamp":"20241115150436","CheckoutRequestID":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:04:37] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516589",
+            "CheckoutRequestID":"ws_CO_15112024150337677768944896",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-15 15:04:37] [INFO] Database connection established successfully
+[2024-11-15 15:04:37] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 13:04:37] [INFO] Starting payment status check request
+[2024-11-15 13:04:37] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:04:39] [INFO] Access token generated successfully
+[2024-11-15 15:04:39] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 15:04:39] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwNDM5","Timestamp":"20241115150439","CheckoutRequestID":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:04:39] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516589",
+            "CheckoutRequestID":"ws_CO_15112024150337677768944896",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-15 15:04:39] [INFO] Database connection established successfully
+[2024-11-15 15:04:39] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 13:04:39] [INFO] Starting payment status check request
+[2024-11-15 13:04:39] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:04:40] [INFO] Access token generated successfully
+[2024-11-15 15:04:40] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 15:04:40] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwNDQw","Timestamp":"20241115150440","CheckoutRequestID":"ws_CO_15112024150337677768944896"}
+[2024-11-15 15:04:41] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516589",
+            "CheckoutRequestID":"ws_CO_15112024150337677768944896",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-15 15:04:41] [INFO] Database connection established successfully
+[2024-11-15 15:04:41] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150337677768944896
+[2024-11-15 13:05:04] [INFO] Starting payment status check request
+[2024-11-15 13:05:04] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150536604757519666"}
+[2024-11-15 15:05:05] [INFO] Access token generated successfully
+[2024-11-15 15:05:05] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150536604757519666
+[2024-11-15 15:05:05] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwNTA1","Timestamp":"20241115150505","CheckoutRequestID":"ws_CO_15112024150536604757519666"}
+[2024-11-15 15:05:06] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516622",
+            "CheckoutRequestID":"ws_CO_15112024150536604757519666",
+            "ResultCode": "2001",
+            "ResultDesc":"The initiator information is invalid."
+        }
+        
+[2024-11-15 15:05:06] [INFO] Database connection established successfully
+[2024-11-15 15:05:06] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150536604757519666
+[2024-11-15 13:05:09] [INFO] Starting payment status check request
+[2024-11-15 13:05:09] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150536604757519666"}
+[2024-11-15 15:05:10] [INFO] Access token generated successfully
+[2024-11-15 15:05:10] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150536604757519666
+[2024-11-15 15:05:10] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwNTEw","Timestamp":"20241115150510","CheckoutRequestID":"ws_CO_15112024150536604757519666"}
+[2024-11-15 15:05:11] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516622",
+            "CheckoutRequestID":"ws_CO_15112024150536604757519666",
+            "ResultCode": "2001",
+            "ResultDesc":"The initiator information is invalid."
+        }
+        
+[2024-11-15 15:05:11] [INFO] Database connection established successfully
+[2024-11-15 15:05:11] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150536604757519666
+[2024-11-15 13:05:14] [INFO] Starting payment status check request
+[2024-11-15 13:05:14] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150536604757519666"}
+[2024-11-15 15:05:15] [INFO] Access token generated successfully
+[2024-11-15 15:05:15] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150536604757519666
+[2024-11-15 15:05:15] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwNTE1","Timestamp":"20241115150515","CheckoutRequestID":"ws_CO_15112024150536604757519666"}
+[2024-11-15 15:05:16] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516622",
+            "CheckoutRequestID":"ws_CO_15112024150536604757519666",
+            "ResultCode": "2001",
+            "ResultDesc":"The initiator information is invalid."
+        }
+        
+[2024-11-15 15:05:16] [INFO] Database connection established successfully
+[2024-11-15 15:05:16] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150536604757519666
+[2024-11-15 13:05:19] [INFO] Starting payment status check request
+[2024-11-15 13:05:19] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150536604757519666"}
+[2024-11-15 15:05:20] [INFO] Access token generated successfully
+[2024-11-15 15:05:20] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150536604757519666
+[2024-11-15 15:05:20] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwNTIw","Timestamp":"20241115150520","CheckoutRequestID":"ws_CO_15112024150536604757519666"}
+[2024-11-15 15:05:21] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516622",
+            "CheckoutRequestID":"ws_CO_15112024150536604757519666",
+            "ResultCode": "2001",
+            "ResultDesc":"The initiator information is invalid."
+        }
+        
+[2024-11-15 15:05:21] [INFO] Database connection established successfully
+[2024-11-15 15:05:21] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150536604757519666
+[2024-11-15 13:05:24] [INFO] Starting payment status check request
+[2024-11-15 13:05:24] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150536604757519666"}
+[2024-11-15 15:05:25] [INFO] Access token generated successfully
+[2024-11-15 15:05:25] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150536604757519666
+[2024-11-15 15:05:25] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwNTI1","Timestamp":"20241115150525","CheckoutRequestID":"ws_CO_15112024150536604757519666"}
+[2024-11-15 15:05:26] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516622",
+            "CheckoutRequestID":"ws_CO_15112024150536604757519666",
+            "ResultCode": "2001",
+            "ResultDesc":"The initiator information is invalid."
+        }
+        
+[2024-11-15 15:05:26] [INFO] Database connection established successfully
+[2024-11-15 15:05:26] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150536604757519666
+[2024-11-15 13:05:49] [INFO] Starting payment status check request
+[2024-11-15 13:05:49] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150622183757196660"}
+[2024-11-15 15:05:50] [INFO] Access token generated successfully
+[2024-11-15 15:05:50] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150622183757196660
+[2024-11-15 15:05:50] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwNTUw","Timestamp":"20241115150550","CheckoutRequestID":"ws_CO_15112024150622183757196660"}
+[2024-11-15 15:05:51] [INFO] MPesa API Response: {
+                    "requestId":"ws_CO_15112024150622183757196660",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": "The transaction is being processed"
+                }
+            
+[2024-11-15 15:05:51] [ERROR] Error in main execution: Invalid MPesa response: ResultCode missing
+[2024-11-15 13:05:54] [INFO] Starting payment status check request
+[2024-11-15 13:05:54] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150622183757196660"}
+[2024-11-15 15:05:55] [INFO] Access token generated successfully
+[2024-11-15 15:05:55] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150622183757196660
+[2024-11-15 15:05:55] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwNTU1","Timestamp":"20241115150555","CheckoutRequestID":"ws_CO_15112024150622183757196660"}
+[2024-11-15 15:05:58] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516634",
+            "CheckoutRequestID":"ws_CO_15112024150622183757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-15 15:05:58] [INFO] Database connection established successfully
+[2024-11-15 15:05:58] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150622183757196660
+[2024-11-15 15:05:58] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-15 15:05:58] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-15 15:05:58] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-15 13:05:59] [INFO] Starting payment status check request
+[2024-11-15 13:05:59] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150622183757196660"}
+[2024-11-15 15:06:00] [INFO] Access token generated successfully
+[2024-11-15 15:06:00] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150622183757196660
+[2024-11-15 15:06:00] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwNjAw","Timestamp":"20241115150600","CheckoutRequestID":"ws_CO_15112024150622183757196660"}
+[2024-11-15 15:06:02] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516634",
+            "CheckoutRequestID":"ws_CO_15112024150622183757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-15 15:06:02] [INFO] Database connection established successfully
+[2024-11-15 15:06:02] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150622183757196660
+[2024-11-15 15:06:02] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-15 15:06:02] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-15 15:06:02] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-15 13:06:04] [INFO] Starting payment status check request
+[2024-11-15 13:06:04] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150622183757196660"}
+[2024-11-15 15:06:05] [INFO] Access token generated successfully
+[2024-11-15 15:06:05] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150622183757196660
+[2024-11-15 15:06:05] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwNjA1","Timestamp":"20241115150605","CheckoutRequestID":"ws_CO_15112024150622183757196660"}
+[2024-11-15 15:06:05] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516634",
+            "CheckoutRequestID":"ws_CO_15112024150622183757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-15 15:06:05] [INFO] Database connection established successfully
+[2024-11-15 15:06:05] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150622183757196660
+[2024-11-15 15:06:05] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-15 15:06:05] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-15 15:06:05] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-15 13:06:09] [INFO] Starting payment status check request
+[2024-11-15 13:06:09] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150622183757196660"}
+[2024-11-15 15:06:10] [INFO] Access token generated successfully
+[2024-11-15 15:06:10] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150622183757196660
+[2024-11-15 15:06:10] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwNjEw","Timestamp":"20241115150610","CheckoutRequestID":"ws_CO_15112024150622183757196660"}
+[2024-11-15 15:06:11] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516634",
+            "CheckoutRequestID":"ws_CO_15112024150622183757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-15 15:06:11] [INFO] Database connection established successfully
+[2024-11-15 15:06:11] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150622183757196660
+[2024-11-15 15:06:11] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-15 15:06:11] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-15 15:06:11] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-15 13:06:14] [INFO] Starting payment status check request
+[2024-11-15 13:06:14] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150622183757196660"}
+[2024-11-15 15:06:16] [INFO] Access token generated successfully
+[2024-11-15 15:06:16] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150622183757196660
+[2024-11-15 15:06:16] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwNjE2","Timestamp":"20241115150616","CheckoutRequestID":"ws_CO_15112024150622183757196660"}
+[2024-11-15 15:06:17] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516634",
+            "CheckoutRequestID":"ws_CO_15112024150622183757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-15 15:06:17] [INFO] Database connection established successfully
+[2024-11-15 15:06:17] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150622183757196660
+[2024-11-15 15:06:17] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-15 15:06:17] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-15 15:06:17] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-15 13:06:19] [INFO] Starting payment status check request
+[2024-11-15 13:06:19] [INFO] Raw input: {"checkoutRequestId":"ws_CO_15112024150622183757196660"}
+[2024-11-15 15:06:20] [INFO] Access token generated successfully
+[2024-11-15 15:06:20] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_15112024150622183757196660
+[2024-11-15 15:06:20] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE1MTUwNjIw","Timestamp":"20241115150620","CheckoutRequestID":"ws_CO_15112024150622183757196660"}
+[2024-11-15 15:06:21] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92516634",
+            "CheckoutRequestID":"ws_CO_15112024150622183757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-15 15:06:21] [INFO] Database connection established successfully
+[2024-11-15 15:06:21] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_15112024150622183757196660
+[2024-11-15 15:06:21] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-15 15:06:21] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-15 15:06:21] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:21:17] [INFO] Starting payment status check request
+[2024-11-16 10:21:17] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:21:28] [INFO] Access token generated successfully
+[2024-11-16 12:21:28] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:21:28] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyMTI4","Timestamp":"20241116122128","CheckoutRequestID":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:21:30] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92530282",
+            "CheckoutRequestID":"ws_CO_16112024122149676757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:21:30] [INFO] Database connection established successfully
+[2024-11-16 12:21:30] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:21:30] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:21:30] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:21:30] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:21:30] [INFO] Starting payment status check request
+[2024-11-16 10:21:30] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:21:31] [INFO] Access token generated successfully
+[2024-11-16 12:21:31] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:21:31] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyMTMx","Timestamp":"20241116122131","CheckoutRequestID":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:21:33] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92530282",
+            "CheckoutRequestID":"ws_CO_16112024122149676757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:21:33] [INFO] Database connection established successfully
+[2024-11-16 12:21:33] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:21:33] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:21:33] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:21:33] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:21:33] [INFO] Starting payment status check request
+[2024-11-16 10:21:33] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:21:34] [INFO] Access token generated successfully
+[2024-11-16 12:21:34] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:21:34] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyMTM0","Timestamp":"20241116122134","CheckoutRequestID":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:21:36] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92530282",
+            "CheckoutRequestID":"ws_CO_16112024122149676757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:21:36] [INFO] Database connection established successfully
+[2024-11-16 12:21:36] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:21:36] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:21:36] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:21:36] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:21:36] [INFO] Starting payment status check request
+[2024-11-16 10:21:36] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:21:37] [INFO] Access token generated successfully
+[2024-11-16 12:21:37] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:21:37] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyMTM3","Timestamp":"20241116122137","CheckoutRequestID":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:21:38] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92530282",
+            "CheckoutRequestID":"ws_CO_16112024122149676757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:21:38] [INFO] Database connection established successfully
+[2024-11-16 12:21:38] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:21:38] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:21:38] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:21:38] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:21:38] [INFO] Starting payment status check request
+[2024-11-16 10:21:38] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:21:40] [INFO] Access token generated successfully
+[2024-11-16 12:21:40] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:21:40] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyMTQw","Timestamp":"20241116122140","CheckoutRequestID":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:21:41] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92530282",
+            "CheckoutRequestID":"ws_CO_16112024122149676757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:21:41] [INFO] Database connection established successfully
+[2024-11-16 12:21:41] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:21:41] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:21:41] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:21:41] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:21:42] [INFO] Starting payment status check request
+[2024-11-16 10:21:42] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:21:43] [INFO] Access token generated successfully
+[2024-11-16 12:21:43] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:21:43] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyMTQz","Timestamp":"20241116122143","CheckoutRequestID":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:21:44] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92530282",
+            "CheckoutRequestID":"ws_CO_16112024122149676757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:21:44] [INFO] Database connection established successfully
+[2024-11-16 12:21:44] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:21:44] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:21:44] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:21:44] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:21:47] [INFO] Starting payment status check request
+[2024-11-16 10:21:47] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:21:48] [INFO] Access token generated successfully
+[2024-11-16 12:21:48] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:21:48] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyMTQ4","Timestamp":"20241116122148","CheckoutRequestID":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:21:49] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92530282",
+            "CheckoutRequestID":"ws_CO_16112024122149676757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:21:49] [INFO] Database connection established successfully
+[2024-11-16 12:21:49] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:21:49] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:21:49] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:21:49] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:21:52] [INFO] Starting payment status check request
+[2024-11-16 10:21:52] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:21:53] [INFO] Access token generated successfully
+[2024-11-16 12:21:53] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:21:53] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyMTUz","Timestamp":"20241116122153","CheckoutRequestID":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:21:54] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92530282",
+            "CheckoutRequestID":"ws_CO_16112024122149676757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:21:54] [INFO] Database connection established successfully
+[2024-11-16 12:21:54] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:21:54] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:21:54] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:21:54] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:21:57] [INFO] Starting payment status check request
+[2024-11-16 10:21:57] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:21:58] [INFO] Access token generated successfully
+[2024-11-16 12:21:58] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:21:58] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyMTU4","Timestamp":"20241116122158","CheckoutRequestID":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:21:59] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92530282",
+            "CheckoutRequestID":"ws_CO_16112024122149676757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:21:59] [INFO] Database connection established successfully
+[2024-11-16 12:21:59] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:21:59] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:21:59] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:21:59] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:22:02] [INFO] Starting payment status check request
+[2024-11-16 10:22:02] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:22:03] [INFO] Access token generated successfully
+[2024-11-16 12:22:03] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:22:03] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyMjAz","Timestamp":"20241116122203","CheckoutRequestID":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:22:04] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92530282",
+            "CheckoutRequestID":"ws_CO_16112024122149676757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:22:04] [INFO] Database connection established successfully
+[2024-11-16 12:22:04] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:22:04] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:22:04] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:22:04] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:22:07] [INFO] Starting payment status check request
+[2024-11-16 10:22:07] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:22:08] [INFO] Access token generated successfully
+[2024-11-16 12:22:08] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:22:08] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyMjA4","Timestamp":"20241116122208","CheckoutRequestID":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:22:09] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92530282",
+            "CheckoutRequestID":"ws_CO_16112024122149676757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:22:09] [INFO] Database connection established successfully
+[2024-11-16 12:22:09] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:22:09] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:22:09] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:22:09] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:22:38] [INFO] Starting payment status check request
+[2024-11-16 10:22:38] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:22:39] [INFO] Access token generated successfully
+[2024-11-16 12:22:39] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:22:39] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyMjM5","Timestamp":"20241116122239","CheckoutRequestID":"ws_CO_16112024122149676757196660"}
+[2024-11-16 12:22:41] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"9b85-4b30-ba72-7f3656486f92530282",
+            "CheckoutRequestID":"ws_CO_16112024122149676757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:22:41] [INFO] Database connection established successfully
+[2024-11-16 12:22:41] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122149676757196660
+[2024-11-16 12:22:41] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:22:41] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:22:41] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:23:50] [INFO] Starting payment status check request
+[2024-11-16 10:23:50] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122423687757196660"}
+[2024-11-16 12:24:00] [INFO] Access token generated successfully
+[2024-11-16 12:24:00] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122423687757196660
+[2024-11-16 12:24:00] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNDAw","Timestamp":"20241116122400","CheckoutRequestID":"ws_CO_16112024122423687757196660"}
+[2024-11-16 12:24:02] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639625",
+            "CheckoutRequestID":"ws_CO_16112024122423687757196660",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-16 12:24:02] [INFO] Database connection established successfully
+[2024-11-16 12:24:02] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122423687757196660
+[2024-11-16 10:24:02] [INFO] Starting payment status check request
+[2024-11-16 10:24:02] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122423687757196660"}
+[2024-11-16 12:24:03] [INFO] Access token generated successfully
+[2024-11-16 12:24:03] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122423687757196660
+[2024-11-16 12:24:03] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNDAz","Timestamp":"20241116122403","CheckoutRequestID":"ws_CO_16112024122423687757196660"}
+[2024-11-16 12:24:04] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639625",
+            "CheckoutRequestID":"ws_CO_16112024122423687757196660",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-16 12:24:04] [INFO] Database connection established successfully
+[2024-11-16 12:24:04] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122423687757196660
+[2024-11-16 10:24:04] [INFO] Starting payment status check request
+[2024-11-16 10:24:04] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122423687757196660"}
+[2024-11-16 12:24:06] [INFO] Access token generated successfully
+[2024-11-16 12:24:06] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122423687757196660
+[2024-11-16 12:24:06] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNDA2","Timestamp":"20241116122406","CheckoutRequestID":"ws_CO_16112024122423687757196660"}
+[2024-11-16 12:24:07] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639625",
+            "CheckoutRequestID":"ws_CO_16112024122423687757196660",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-16 12:24:07] [INFO] Database connection established successfully
+[2024-11-16 12:24:07] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122423687757196660
+[2024-11-16 10:24:07] [INFO] Starting payment status check request
+[2024-11-16 10:24:07] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122423687757196660"}
+[2024-11-16 12:24:09] [INFO] Access token generated successfully
+[2024-11-16 12:24:09] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122423687757196660
+[2024-11-16 12:24:09] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNDA5","Timestamp":"20241116122409","CheckoutRequestID":"ws_CO_16112024122423687757196660"}
+[2024-11-16 12:24:11] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639625",
+            "CheckoutRequestID":"ws_CO_16112024122423687757196660",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-16 12:24:11] [INFO] Database connection established successfully
+[2024-11-16 12:24:11] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122423687757196660
+[2024-11-16 10:24:11] [INFO] Starting payment status check request
+[2024-11-16 10:24:11] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122423687757196660"}
+[2024-11-16 12:24:12] [INFO] Access token generated successfully
+[2024-11-16 12:24:12] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122423687757196660
+[2024-11-16 12:24:12] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNDEy","Timestamp":"20241116122412","CheckoutRequestID":"ws_CO_16112024122423687757196660"}
+[2024-11-16 12:24:13] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639625",
+            "CheckoutRequestID":"ws_CO_16112024122423687757196660",
+            "ResultCode": "1032",
+            "ResultDesc":"Request cancelled by user"
+        }
+        
+[2024-11-16 12:24:13] [INFO] Database connection established successfully
+[2024-11-16 12:24:13] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122423687757196660
+[2024-11-16 10:24:28] [INFO] Starting payment status check request
+[2024-11-16 10:24:28] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:24:37] [INFO] Access token generated successfully
+[2024-11-16 12:24:37] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:24:37] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNDM3","Timestamp":"20241116122437","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:24:38] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:24:38] [INFO] Database connection established successfully
+[2024-11-16 12:24:38] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:24:38] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:24:38] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:24:38] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:24:38] [INFO] Starting payment status check request
+[2024-11-16 10:24:38] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:24:41] [INFO] Access token generated successfully
+[2024-11-16 12:24:41] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:24:41] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNDQx","Timestamp":"20241116122441","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:24:43] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:24:43] [INFO] Database connection established successfully
+[2024-11-16 12:24:43] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:24:43] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:24:43] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:24:43] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:24:43] [INFO] Starting payment status check request
+[2024-11-16 10:24:43] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:24:45] [INFO] Access token generated successfully
+[2024-11-16 12:24:45] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:24:45] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNDQ1","Timestamp":"20241116122445","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:24:46] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:24:46] [INFO] Database connection established successfully
+[2024-11-16 12:24:46] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:24:46] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:24:46] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:24:46] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:24:46] [INFO] Starting payment status check request
+[2024-11-16 10:24:46] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:24:49] [INFO] Access token generated successfully
+[2024-11-16 12:24:49] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:24:49] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNDQ5","Timestamp":"20241116122449","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:24:50] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:24:50] [INFO] Database connection established successfully
+[2024-11-16 12:24:50] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:24:50] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:24:50] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:24:50] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:24:50] [INFO] Starting payment status check request
+[2024-11-16 10:24:50] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:24:52] [INFO] Access token generated successfully
+[2024-11-16 12:24:52] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:24:52] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNDUy","Timestamp":"20241116122452","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:24:53] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:24:53] [INFO] Database connection established successfully
+[2024-11-16 12:24:53] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:24:53] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:24:53] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:24:53] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:24:53] [INFO] Starting payment status check request
+[2024-11-16 10:24:53] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:24:55] [INFO] Access token generated successfully
+[2024-11-16 12:24:55] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:24:55] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNDU1","Timestamp":"20241116122455","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:24:56] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:24:56] [INFO] Database connection established successfully
+[2024-11-16 12:24:56] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:24:56] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:24:56] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:24:56] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:24:58] [INFO] Starting payment status check request
+[2024-11-16 10:24:58] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:24:59] [INFO] Access token generated successfully
+[2024-11-16 12:24:59] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:24:59] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNDU5","Timestamp":"20241116122459","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:00] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:25:01] [INFO] Database connection established successfully
+[2024-11-16 12:25:01] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:01] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:01] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:01] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:25:03] [INFO] Starting payment status check request
+[2024-11-16 10:25:03] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:04] [INFO] Access token generated successfully
+[2024-11-16 12:25:04] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:04] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNTA0","Timestamp":"20241116122504","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:06] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:25:06] [INFO] Database connection established successfully
+[2024-11-16 12:25:06] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:06] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:06] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:06] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:25:08] [INFO] Starting payment status check request
+[2024-11-16 10:25:08] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:09] [INFO] Access token generated successfully
+[2024-11-16 12:25:09] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:09] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNTA5","Timestamp":"20241116122509","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:10] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:25:10] [INFO] Database connection established successfully
+[2024-11-16 12:25:10] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:10] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:10] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:10] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:25:13] [INFO] Starting payment status check request
+[2024-11-16 10:25:13] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:14] [INFO] Access token generated successfully
+[2024-11-16 12:25:14] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:14] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNTE0","Timestamp":"20241116122514","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:16] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:25:16] [INFO] Database connection established successfully
+[2024-11-16 12:25:16] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:16] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:16] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:16] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:25:18] [INFO] Starting payment status check request
+[2024-11-16 10:25:18] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:20] [INFO] Access token generated successfully
+[2024-11-16 12:25:20] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:20] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNTIw","Timestamp":"20241116122520","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:22] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:25:22] [INFO] Database connection established successfully
+[2024-11-16 12:25:22] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:22] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:22] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:22] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:25:30] [INFO] Starting payment status check request
+[2024-11-16 10:25:30] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:33] [INFO] Access token generated successfully
+[2024-11-16 12:25:33] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:33] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNTMz","Timestamp":"20241116122533","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:34] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:25:34] [INFO] Database connection established successfully
+[2024-11-16 12:25:34] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:34] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:34] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:34] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:25:35] [INFO] Starting payment status check request
+[2024-11-16 10:25:35] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:36] [INFO] Access token generated successfully
+[2024-11-16 12:25:36] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:36] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNTM2","Timestamp":"20241116122536","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:37] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:25:37] [INFO] Database connection established successfully
+[2024-11-16 12:25:37] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:37] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:37] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:37] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:25:38] [INFO] Starting payment status check request
+[2024-11-16 10:25:38] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:39] [INFO] Access token generated successfully
+[2024-11-16 12:25:39] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:39] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNTM5","Timestamp":"20241116122539","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:40] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:25:40] [INFO] Database connection established successfully
+[2024-11-16 12:25:40] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:40] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:40] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:40] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:25:43] [INFO] Starting payment status check request
+[2024-11-16 10:25:43] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:46] [INFO] Access token generated successfully
+[2024-11-16 12:25:46] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:46] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNTQ2","Timestamp":"20241116122546","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:49] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:25:49] [INFO] Database connection established successfully
+[2024-11-16 12:25:49] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:49] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:49] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:49] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:25:49] [INFO] Starting payment status check request
+[2024-11-16 10:25:49] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:50] [INFO] Access token generated successfully
+[2024-11-16 12:25:50] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:50] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNTUw","Timestamp":"20241116122550","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:53] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:25:53] [INFO] Database connection established successfully
+[2024-11-16 12:25:53] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:53] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:53] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:53] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:25:54] [INFO] Starting payment status check request
+[2024-11-16 10:25:54] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:56] [INFO] Access token generated successfully
+[2024-11-16 12:25:56] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:56] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNTU2","Timestamp":"20241116122556","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:58] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:25:58] [INFO] Database connection established successfully
+[2024-11-16 12:25:58] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:58] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:58] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:25:58] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:25:58] [INFO] Starting payment status check request
+[2024-11-16 10:25:58] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:25:59] [INFO] Access token generated successfully
+[2024-11-16 12:25:59] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:25:59] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNTU5","Timestamp":"20241116122559","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:26:02] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:26:02] [INFO] Database connection established successfully
+[2024-11-16 12:26:02] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:26:02] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:26:02] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:26:02] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:26:03] [INFO] Starting payment status check request
+[2024-11-16 10:26:03] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:26:05] [INFO] Access token generated successfully
+[2024-11-16 12:26:05] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:26:05] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNjA1","Timestamp":"20241116122605","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:26:07] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:26:07] [INFO] Database connection established successfully
+[2024-11-16 12:26:07] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:26:07] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:26:07] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:26:07] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:26:08] [INFO] Starting payment status check request
+[2024-11-16 10:26:08] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:26:10] [INFO] Access token generated successfully
+[2024-11-16 12:26:10] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:26:10] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNjEw","Timestamp":"20241116122610","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:26:12] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:26:12] [INFO] Database connection established successfully
+[2024-11-16 12:26:12] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:26:12] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:26:12] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:26:12] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:26:13] [INFO] Starting payment status check request
+[2024-11-16 10:26:13] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:26:14] [INFO] Access token generated successfully
+[2024-11-16 12:26:14] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:26:14] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNjE0","Timestamp":"20241116122614","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:26:17] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:26:17] [INFO] Database connection established successfully
+[2024-11-16 12:26:17] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:26:17] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:26:17] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:26:17] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:26:18] [INFO] Starting payment status check request
+[2024-11-16 10:26:18] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:26:19] [INFO] Access token generated successfully
+[2024-11-16 12:26:19] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:26:19] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNjE5","Timestamp":"20241116122619","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:26:20] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:26:20] [INFO] Database connection established successfully
+[2024-11-16 12:26:20] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:26:20] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:26:20] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:26:20] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:26:23] [INFO] Starting payment status check request
+[2024-11-16 10:26:23] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:26:24] [INFO] Access token generated successfully
+[2024-11-16 12:26:24] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:26:24] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIyNjI0","Timestamp":"20241116122624","CheckoutRequestID":"ws_CO_16112024122501454757196660"}
+[2024-11-16 12:26:26] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"3124-481d-b706-10bdd6fbc8e21822152",
+            "CheckoutRequestID":"ws_CO_16112024122501454757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:26:26] [INFO] Database connection established successfully
+[2024-11-16 12:26:26] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024122501454757196660
+[2024-11-16 12:26:26] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:26:26] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:26:26] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:33:22] [INFO] Starting payment status check request
+[2024-11-16 10:33:22] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:33:31] [INFO] Access token generated successfully
+[2024-11-16 12:33:31] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:33:31] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIzMzMx","Timestamp":"20241116123331","CheckoutRequestID":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:33:34] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639782",
+            "CheckoutRequestID":"ws_CO_16112024123355311757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:33:34] [INFO] Database connection established successfully
+[2024-11-16 12:33:34] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:33:34] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:33:34] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:33:34] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:33:34] [INFO] Starting payment status check request
+[2024-11-16 10:33:34] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:33:36] [INFO] Access token generated successfully
+[2024-11-16 12:33:36] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:33:36] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIzMzM2","Timestamp":"20241116123336","CheckoutRequestID":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:33:38] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639782",
+            "CheckoutRequestID":"ws_CO_16112024123355311757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:33:38] [INFO] Database connection established successfully
+[2024-11-16 12:33:38] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:33:38] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:33:38] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:33:38] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:33:38] [INFO] Starting payment status check request
+[2024-11-16 10:33:38] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:33:40] [INFO] Access token generated successfully
+[2024-11-16 12:33:40] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:33:40] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIzMzQw","Timestamp":"20241116123340","CheckoutRequestID":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:33:42] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639782",
+            "CheckoutRequestID":"ws_CO_16112024123355311757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:33:42] [INFO] Database connection established successfully
+[2024-11-16 12:33:42] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:33:42] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:33:42] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:33:42] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:33:42] [INFO] Starting payment status check request
+[2024-11-16 10:33:42] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:33:44] [INFO] Access token generated successfully
+[2024-11-16 12:33:44] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:33:44] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIzMzQ0","Timestamp":"20241116123344","CheckoutRequestID":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:33:45] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639782",
+            "CheckoutRequestID":"ws_CO_16112024123355311757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:33:45] [INFO] Database connection established successfully
+[2024-11-16 12:33:45] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:33:45] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:33:45] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:33:45] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:33:46] [INFO] Starting payment status check request
+[2024-11-16 10:33:46] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:33:47] [INFO] Access token generated successfully
+[2024-11-16 12:33:47] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:33:47] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIzMzQ3","Timestamp":"20241116123347","CheckoutRequestID":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:33:48] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639782",
+            "CheckoutRequestID":"ws_CO_16112024123355311757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:33:48] [INFO] Database connection established successfully
+[2024-11-16 12:33:48] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:33:48] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:33:48] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:33:48] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:33:48] [INFO] Starting payment status check request
+[2024-11-16 10:33:48] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:33:49] [INFO] Access token generated successfully
+[2024-11-16 12:33:49] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:33:49] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIzMzQ5","Timestamp":"20241116123349","CheckoutRequestID":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:33:50] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639782",
+            "CheckoutRequestID":"ws_CO_16112024123355311757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:33:50] [INFO] Database connection established successfully
+[2024-11-16 12:33:50] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:33:50] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:33:50] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:33:50] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:33:52] [INFO] Starting payment status check request
+[2024-11-16 10:33:52] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:33:53] [INFO] Access token generated successfully
+[2024-11-16 12:33:53] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:33:53] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIzMzUz","Timestamp":"20241116123353","CheckoutRequestID":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:33:54] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639782",
+            "CheckoutRequestID":"ws_CO_16112024123355311757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:33:54] [INFO] Database connection established successfully
+[2024-11-16 12:33:54] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:33:54] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:33:54] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:33:54] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:33:57] [INFO] Starting payment status check request
+[2024-11-16 10:33:57] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:33:58] [INFO] Access token generated successfully
+[2024-11-16 12:33:58] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:33:58] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIzMzU4","Timestamp":"20241116123358","CheckoutRequestID":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:33:59] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639782",
+            "CheckoutRequestID":"ws_CO_16112024123355311757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:33:59] [INFO] Database connection established successfully
+[2024-11-16 12:33:59] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:33:59] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:33:59] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:33:59] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:34:02] [INFO] Starting payment status check request
+[2024-11-16 10:34:02] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:34:03] [INFO] Access token generated successfully
+[2024-11-16 12:34:03] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:34:03] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIzNDAz","Timestamp":"20241116123403","CheckoutRequestID":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:34:04] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639782",
+            "CheckoutRequestID":"ws_CO_16112024123355311757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:34:04] [INFO] Database connection established successfully
+[2024-11-16 12:34:04] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:34:04] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:34:04] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:34:04] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:34:07] [INFO] Starting payment status check request
+[2024-11-16 10:34:07] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:34:09] [INFO] Access token generated successfully
+[2024-11-16 12:34:09] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:34:09] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIzNDA5","Timestamp":"20241116123409","CheckoutRequestID":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:34:09] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639782",
+            "CheckoutRequestID":"ws_CO_16112024123355311757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:34:09] [INFO] Database connection established successfully
+[2024-11-16 12:34:09] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:34:09] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:34:09] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:34:09] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:34:12] [INFO] Starting payment status check request
+[2024-11-16 10:34:12] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:34:13] [INFO] Access token generated successfully
+[2024-11-16 12:34:13] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:34:13] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIzNDEz","Timestamp":"20241116123413","CheckoutRequestID":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:34:14] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639782",
+            "CheckoutRequestID":"ws_CO_16112024123355311757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:34:14] [INFO] Database connection established successfully
+[2024-11-16 12:34:14] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:34:14] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:34:14] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:34:14] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:34:17] [INFO] Starting payment status check request
+[2024-11-16 10:34:17] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:34:19] [INFO] Access token generated successfully
+[2024-11-16 12:34:19] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:34:19] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIzNDE5","Timestamp":"20241116123419","CheckoutRequestID":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:34:20] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639782",
+            "CheckoutRequestID":"ws_CO_16112024123355311757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:34:20] [INFO] Database connection established successfully
+[2024-11-16 12:34:20] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:34:20] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:34:20] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:34:20] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:34:22] [INFO] Starting payment status check request
+[2024-11-16 10:34:22] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:34:23] [INFO] Access token generated successfully
+[2024-11-16 12:34:23] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:34:23] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIzNDIz","Timestamp":"20241116123423","CheckoutRequestID":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:34:24] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639782",
+            "CheckoutRequestID":"ws_CO_16112024123355311757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:34:24] [INFO] Database connection established successfully
+[2024-11-16 12:34:24] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:34:24] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:34:24] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:34:24] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:34:30] [INFO] Starting payment status check request
+[2024-11-16 10:34:30] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:34:33] [INFO] Access token generated successfully
+[2024-11-16 12:34:33] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:34:33] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIzNDMz","Timestamp":"20241116123433","CheckoutRequestID":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:34:34] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639782",
+            "CheckoutRequestID":"ws_CO_16112024123355311757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:34:34] [INFO] Database connection established successfully
+[2024-11-16 12:34:34] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:34:34] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:34:34] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:34:34] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:34:34] [INFO] Starting payment status check request
+[2024-11-16 10:34:34] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:34:35] [INFO] Access token generated successfully
+[2024-11-16 12:34:35] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:34:35] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIzNDM1","Timestamp":"20241116123435","CheckoutRequestID":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:34:56] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639782",
+            "CheckoutRequestID":"ws_CO_16112024123355311757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:34:56] [INFO] Database connection established successfully
+[2024-11-16 12:34:56] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:34:56] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:34:56] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:34:56] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:34:56] [INFO] Starting payment status check request
+[2024-11-16 10:34:56] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:34:58] [INFO] Access token generated successfully
+[2024-11-16 12:34:58] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:34:58] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIzNDU4","Timestamp":"20241116123458","CheckoutRequestID":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:35:00] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639782",
+            "CheckoutRequestID":"ws_CO_16112024123355311757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:35:00] [INFO] Database connection established successfully
+[2024-11-16 12:35:00] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:35:00] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:35:00] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:35:00] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:35:00] [INFO] Starting payment status check request
+[2024-11-16 10:35:00] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:35:01] [INFO] Access token generated successfully
+[2024-11-16 12:35:01] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:35:01] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIzNTAx","Timestamp":"20241116123501","CheckoutRequestID":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:35:02] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639782",
+            "CheckoutRequestID":"ws_CO_16112024123355311757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:35:02] [INFO] Database connection established successfully
+[2024-11-16 12:35:02] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:35:02] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:35:02] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:35:02] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:35:02] [INFO] Starting payment status check request
+[2024-11-16 10:35:02] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:35:03] [INFO] Access token generated successfully
+[2024-11-16 12:35:03] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:35:03] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIzNTAz","Timestamp":"20241116123503","CheckoutRequestID":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:35:05] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639782",
+            "CheckoutRequestID":"ws_CO_16112024123355311757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:35:05] [INFO] Database connection established successfully
+[2024-11-16 12:35:05] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:35:05] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:35:05] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:35:05] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
+[2024-11-16 10:35:05] [INFO] Starting payment status check request
+[2024-11-16 10:35:05] [INFO] Raw input: {"checkoutRequestId":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:35:06] [INFO] Access token generated successfully
+[2024-11-16 12:35:06] [INFO] Starting transaction query for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:35:06] [INFO] Query payload: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMTE2MTIzNTA2","Timestamp":"20241116123506","CheckoutRequestID":"ws_CO_16112024123355311757196660"}
+[2024-11-16 12:35:08] [INFO] MPesa API Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successsfully",
+            "MerchantRequestID":"8c39-4e24-ba78-a464bfcb7db6639782",
+            "CheckoutRequestID":"ws_CO_16112024123355311757196660",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+[2024-11-16 12:35:08] [INFO] Database connection established successfully
+[2024-11-16 12:35:08] [INFO] Successfully updated payment status for CheckoutRequestID: ws_CO_16112024123355311757196660
+[2024-11-16 12:35:08] [ERROR] Order status update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:35:08] [ERROR] Database update error: Unknown column 'order_id' in 'field list'
+[2024-11-16 12:35:08] [ERROR] Error in main execution: Unknown column 'order_id' in 'field list'
