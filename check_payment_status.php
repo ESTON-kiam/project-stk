@@ -119,22 +119,24 @@ class MpesaExpressQuery {
                 throw new Exception('Failed to query transaction: ' . curl_error($curl));
             }
             
-            logMessage("MPesa API Response: " . $response);
+            logMessage("Full MPesa API Response: " . $response);
             $result = json_decode($response, true);
             
             if (!$result) {
                 throw new Exception('Failed to decode MPesa response');
             }
             
-            if (isset($result['ResultCode'])) {
-                $result['ResultMessage'] = match((string)$result['ResultCode']) {
-                    '0' => 'The transaction was completed successfully',
-                    '1' => 'The balance is insufficient for the transaction',
-                    '1032' => 'Transaction cancelled by user',
-                    '1037' => 'Timeout in completing transaction',
-                    default => 'Unknown result code: ' . $result['ResultCode']
-                };
-            }
+           
+            $result['ResultMessage'] = match((string)($result['ResultCode'] ?? 'UNKNOWN')) {
+                '0' => 'Transaction successful',
+                '1' => 'Insufficient balance',
+                '1032' => 'Transaction cancelled by user',
+                '1037' => 'Transaction timeout',
+                default => 'Unknown result code: ' . ($result['ResultCode'] ?? 'N/A')
+            };
+            
+           
+            logMessage("Parsed MPesa Response: " . json_encode($result), 'DEBUG');
             
             return $result;
             
@@ -179,54 +181,53 @@ class DatabaseHandler {
     
     public function updatePaymentStatus($checkoutRequestId, $status, $resultCode, $resultDesc, $mpesaReceiptNumber = null, $phoneNumber = null) {
         try {
-            if ($status === 'COMPLETED' && $mpesaReceiptNumber) {
-                $updateQuery = "UPDATE mpesa_payments SET 
-                                status = ?,
-                                result_code = ?,
-                                result_desc = ?,
-                                mpesa_receipt = ?,
-                                phone_number = ?,
-                                updated_at = NOW()
-                               WHERE checkout_request_id = ?";
-                               
-                $stmt = $this->conn->prepare($updateQuery);
-                if (!$stmt) {
-                    throw new Exception("Failed to prepare statement: " . $this->conn->error);
-                }
-                
-                $stmt->bind_param("ssssss", $status, $resultCode, $resultDesc, $mpesaReceiptNumber, $phoneNumber, $checkoutRequestId);
-            } else {
-                $updateQuery = "UPDATE mpesa_payments SET 
-                                status = ?,
-                                result_code = ?,
-                                result_desc = ?,
-                                updated_at = NOW()
-                               WHERE checkout_request_id = ?";
-                               
-                $stmt = $this->conn->prepare($updateQuery);
-                if (!$stmt) {
-                    throw new Exception("Failed to prepare statement: " . $this->conn->error);
-                }
-                
-                $stmt->bind_param("ssss", $status, $resultCode, $resultDesc, $checkoutRequestId);
+          
+            logMessage("Attempting to update payment status with details: " . json_encode([
+                'checkoutRequestId' => $checkoutRequestId,
+                'status' => $status,
+                'resultCode' => $resultCode,
+                'resultDesc' => $resultDesc,
+                'mpesaReceiptNumber' => $mpesaReceiptNumber,
+                'phoneNumber' => $phoneNumber
+            ]), 'DEBUG');
+
+            
+            $updateQuery = "UPDATE mpesa_payments SET 
+                            status = ?,
+                            result_code = ?,
+                            result_desc = ?,
+                            mpesa_receipt = COALESCE(?, mpesa_receipt),
+                            phone_number = COALESCE(?, phone_number),
+                            updated_at = NOW()
+                           WHERE checkout_request_id = ?";
+                           
+            $stmt = $this->conn->prepare($updateQuery);
+            if (!$stmt) {
+                throw new Exception("Failed to prepare statement: " . $this->conn->error);
             }
+            
+           
+            $stmt->bind_param("ssssss", 
+                $status, 
+                $resultCode, 
+                $resultDesc, 
+                $mpesaReceiptNumber, 
+                $phoneNumber, 
+                $checkoutRequestId
+            );
             
             if (!$stmt->execute()) {
                 throw new Exception("Failed to update payment status: " . $stmt->error);
             }
+           
+            logMessage("Payment status update - Affected rows: " . $stmt->affected_rows, 'DEBUG');
             
             if ($stmt->affected_rows === 0) {
                 logMessage("No rows updated for CheckoutRequestID: $checkoutRequestId", 'WARNING');
             } else {
                 logMessage("Successfully updated payment status for CheckoutRequestID: $checkoutRequestId");
-                if ($mpesaReceiptNumber) {
-                    logMessage("Stored M-Pesa receipt number: $mpesaReceiptNumber");
-                }
-                if ($phoneNumber) {
-                    logMessage("Stored phone number: $phoneNumber");
-                }
             }
-            
+           
             if ($status === 'COMPLETED') {
                 $this->updateOrderStatus($checkoutRequestId);
             }
@@ -261,12 +262,13 @@ class DatabaseHandler {
             $row = $result->fetch_assoc();
             
             if (!$row || !isset($row['order_id'])) {
-                throw new Exception("No order_id found for checkout request: " . $checkoutRequestId);
+                logMessage("No order_id found for checkout request: " . $checkoutRequestId, 'WARNING');
+                return false;
             }
             
             $stmt->close();
             
-            
+       
             $updateQuery = "UPDATE orders SET 
                             payment_status = 'PAID',
                             status = 'PROCESSING',
@@ -285,10 +287,11 @@ class DatabaseHandler {
             }
             
             logMessage("Successfully updated order status for order ID: " . $row['order_id']);
+            return true;
             
         } catch (Exception $e) {
             logMessage("Order status update error: " . $e->getMessage(), 'ERROR');
-            throw $e;
+            return false;
         } finally {
             if (isset($stmt)) {
                 $stmt->close();
@@ -304,14 +307,16 @@ class DatabaseHandler {
 }
 
 try {
-    logMessage("Starting payment status check request");
+    logMessage("Starting payment status check request", 'INFO');
+    
     
     $rawInput = file_get_contents('php://input');
     if (empty($rawInput)) {
         throw new Exception('No input data received');
     }
     
-    logMessage("Raw input: " . $rawInput);
+    logMessage("Raw input: " . $rawInput, 'DEBUG');
+    
     
     $data = json_decode($rawInput, true);
     if (json_last_error() !== JSON_ERROR_NONE) {
@@ -322,16 +327,20 @@ try {
         throw new Exception('Invalid request data: checkoutRequestId missing');
     }
     
+    
     $mpesa = new MpesaExpressQuery(
         'F1tuXfV73l8AUIXUVEdvQsRE7OJsRdg9kz22y67vCEG1TCul',
         'agskGrWUs4A9NwazyA6bRhk9fCUm5wDmGfoPA9RQjA5biDaOJckGIAAIkJPFH0uU'
     );
     
+   
     $response = $mpesa->queryTransaction($data['checkoutRequestId']);
     
+   
     if (!isset($response['ResultCode'])) {
         throw new Exception('Invalid MPesa response: ResultCode missing');
     }
+    
     
     $status = match((string)$response['ResultCode']) {
         '0' => 'COMPLETED',
@@ -341,6 +350,7 @@ try {
         default => 'UNKNOWN'
     };
     
+   
     $db = new DatabaseHandler([
         'host' => 'localhost',
         'user' => 'root',
@@ -348,12 +358,10 @@ try {
         'name' => 'ecommerce'
     ]);
     
-    $mpesaReceiptNumber = null;
-    $phoneNumber = null;
-    if ($status === 'COMPLETED') {
-        $mpesaReceiptNumber = $response['MpesaReceiptNumber'] ?? null;
-        $phoneNumber = $response['PhoneNumber'] ?? null;
-    }
+   
+    $mpesaReceiptNumber = $response['MpesaReceiptNumber'] ?? null;
+    $phoneNumber = $response['PhoneNumber'] ?? null;
+    
     
     $updated = $db->updatePaymentStatus(
         $data['checkoutRequestId'],
@@ -364,6 +372,7 @@ try {
         $phoneNumber
     );
     
+   
     $responseData = [
         'success' => true,
         'message' => $response['ResultMessage'] ?? $response['ResultDesc'] ?? 'Status check completed',
@@ -378,9 +387,11 @@ try {
         ]
     ];
     
+    
     echo json_encode($responseData, JSON_THROW_ON_ERROR);
     
 } catch (Exception $e) {
+    
     logMessage("Error in main execution: " . $e->getMessage(), 'ERROR');
     
     $errorResponse = [

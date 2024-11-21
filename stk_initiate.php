@@ -69,7 +69,7 @@ if ($data) {
     $headers = ['Content-Type:application/json; charset=utf8'];
     $access_token_url = 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
     $initiate_url = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
-    $CallBackURL = 'https://1234-56-7890.ngrok-free.app/callback_url.php';
+    $CallBackURL = 'https://655a-196-250-209-180.ngrok-free.app/callback_url.php';
 
     $curl = curl_init($access_token_url);
     curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
